@@ -29,7 +29,7 @@ echo "1. If the section below is empty, the program compiles "
 echo "   without warnings with -Wall -Wextra flags"
 echo "====================================================="
 
-g++ -g -Wall -Wextra -Wno-sign-compare *.cpp
+g++ -I./header -g -Wall -Wextra -Wno-sign-compare *.cpp src/*.cpp
 
 echo "====================================================="
 echo "2. If the section below is empty or has the expected output "
@@ -45,7 +45,7 @@ echo "   (ignore warnings from system headers, such as \"13554 warnings generate
 echo "====================================================="
 
 if hash clang-tidy 2>/dev/null; then
-  clang-tidy *.cpp --
+  clang-tidy *.cpp src/*.cpp -- -I./header
 else
   echo "WARNING: clang-tidy not available."
 fi
@@ -59,7 +59,7 @@ if hash clang-format 2>/dev/null; then
   # different LLVMs have slightly different configurations which can break things, so regenerate
   echo "# generated using: clang-format -style=llvm -dump-config > .clang-format" > .clang-format
   clang-format -style=llvm -dump-config >> .clang-format
-  for f in ./*.cpp; do
+  for f in ./*.cpp src/*.cpp; do
     echo "Running clang-format on $f"
     clang-format $f | diff $f -
   done
@@ -73,7 +73,7 @@ echo "====================================================="
 
 rm ./a.out 2>/dev/null
 
-g++ -fsanitize=address -fno-omit-frame-pointer -g *.cpp
+g++ -I./header -fsanitize=address -fno-omit-frame-pointer -g *.cpp src/*.cpp
 # Execute program
 $EXEC_PROGRAM > /dev/null 2> /dev/null
 
@@ -86,7 +86,7 @@ echo "====================================================="
 rm ./a.out 2>/dev/null
 
 if hash valgrind 2>/dev/null; then
-  g++ -g *.cpp
+  g++ -I./header -g *.cpp src/*.cpp
   # redirect program output to /dev/null will running valgrind
   valgrind --log-file="valgrind-output.txt" $EXEC_PROGRAM > /dev/null 2>/dev/null
   cat valgrind-output.txt

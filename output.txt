@@ -1,0 +1,2233 @@
+Sun Jun  8 01:50:00 PDT 2025
+Darwin Rosalias-MacBook-Pro.local 24.5.0 Darwin Kernel Version 24.5.0: Tue Apr 22 19:53:27 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T6041 arm64
+uid=501(bluerose) gid=20(staff) groups=20(staff),12(everyone),61(localaccounts),79(_appserverusr),80(admin),81(_appserveradm),33(_appstore),98(_lpadmin),100(_lpoperator),204(_developer),250(_analyticsusers),395(com.apple.access_ftp),398(com.apple.access_screensharing),399(com.apple.access_ssh),400(com.apple.access_remote_ae),701(com.apple.sharepoint.group.1)
+=====================================================
+1. If the section below is empty, the program compiles 
+   without warnings with -Wall -Wextra flags
+=====================================================
+src/store.cpp:65:9: warning: variable 'lineNumber' set but not used [-Wunused-but-set-variable]
+   65 |     int lineNumber = 0;
+      |         ^
+1 warning generated.
+=====================================================
+2. If the section below is empty or has the expected output 
+    the program puns and produces correct output
+=====================================================
+Unknown movie type: Z, discarding line:  10, Hal Ashby, Harold and Maude, Bud Cort 3 1971
+Unknown movie type: Z, discarding line:  10, Frank Capra, It's a Wonderful Life, James Steward 11 1946
+==========================
+Annie Hall, 1977, Woody Allen (10) - Comedy
+Fargo, 1996, Joel Coen (10) - Comedy
+National Lampoon's Animal House, 1978, John Landis (10) - Comedy
+Pirates of the Caribbean, 2000, Different Years (10) - Comedy
+Pirates of the Caribbean, 2003, Gore Verbinski (10) - Comedy
+Sleepless in Seattle, 1993, Nora Ephron (10) - Comedy
+When Harry Met Sally, 1989, Rob Reiner (10) - Comedy
+You've Got Mail, 1998, Nora Ephron (10) - Comedy
+Barry Levinson, Good Morning Vietnam, 1988 (10) - Drama
+Barry Levinson, Same Director Good Morning Vietnam, 1988 (10) - Drama
+Clint Eastwood, Unforgiven, 1992 (10) - Drama
+Gus Van Sant, Good Will Hunting, 2000 (10) - Drama
+Jonathan Demme, Silence of the Lambs, 1991 (10) - Drama
+Nancy Savoca, Dogfight, 1991 (10) - Drama
+Phillippe De Broca, King of Hearts, 1967 (10) - Drama
+Steven Spielberg, Schindler's List, 1993 (10) - Drama
+1938 9, Cary Grant, George Cukor, Holiday (10) - Classics
+1938 9, Katherine Hepburn, George Cukor, Holiday (10) - Classics
+1939 2, Clark Gable, Victor Fleming, Gone With the Wind (10) - Classics
+1939 2, Vivien Leigh, Victor Fleming, Gone With the Wind (10) - Classics
+1939 7, Judy Garland, Victor Fleming, The Wizard of Oz (10) - Classics
+1940 5, Cary Grant, George Cukor, The Philadelphia Story (10) - Classics
+1940 5, Katherine Hepburn, George Cukor, The Philadelphia Story (10) - Classics
+1941 10, Humphrey Bogart, John Huston, The Maltese Falcon (10) - Classics
+1942 8, Humphrey Bogart, Michael Curtiz, Casablanca (10) - Classics
+1942 8, Ingrid Bergman, Michael Curtiz, Casablanca (10) - Classics
+1946 11, Donna Reed, Frank Capra, It's a Wonderful Life (10) - Classics
+1946 11, James Steward, Frank Capra, It's a Wonderful Life (10) - Classics
+1971 2, Malcolm McDowell, Stanley Kubrick, A Clockwork Orange (10) - Classics
+1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (10) - Classics
+Debug: History for 1000 Mouse Minnie
+==========================
+History for 1000 Mouse Minnie:
+No history for Mouse Minnie
+Debug: History for 5000 Frog Freddie
+==========================
+History for 5000 Frog Freddie:
+No history for Frog Freddie
+Debug: History for 8000 Wacky Wally
+==========================
+History for 8000 Wacky Wally:
+No history for Wacky Wally
+Debug: Borrow 8000 Wacky Wally You've Got Mail, 1998, Nora Ephron (10) - Comedy
+Debug: Borrow 1000 Mouse Minnie Barry Levinson, Good Morning Vietnam, 1988 (10) - Drama
+Debug: Borrow 1000 Mouse Minnie 1940 5, Katherine Hepburn, George Cukor, The Philadelphia Story (10) - Classics
+Debug: Borrow 2000 Duck Donald Sleepless in Seattle, 1993, Nora Ephron (10) - Comedy
+Debug: Borrow 4444 Moose Bullwinkle 1971 2, Malcolm McDowell, Stanley Kubrick, A Clockwork Orange (10) - Classics
+Debug: Borrow 5000 Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (10) - Classics
+Debug: Return 5000 Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (9) - Classics
+Debug: Borrow 8888 Pig Porky Annie Hall, 1977, Woody Allen (10) - Comedy
+Debug: Borrow 1111 Mouse Mickey 1971 2, Malcolm McDowell, Stanley Kubrick, A Clockwork Orange (9) - Classics
+Invalid movie type Z, discarding line:  2 1971 Malcolm McDowell
+Debug: Borrow 5000 Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (10) - Classics
+Debug: Return 5000 Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (9) - Classics
+Debug: Borrow 1000 Mouse Minnie Gus Van Sant, Good Will Hunting, 2000 (10) - Drama
+Debug: Borrow 2000 Duck Donald Phillippe De Broca, King of Hearts, 1967 (10) - Drama
+Debug: Return 4444 Moose Bullwinkle 1971 2, Malcolm McDowell, Stanley Kubrick, A Clockwork Orange (8) - Classics
+Debug: Borrow 1000 Mouse Minnie 1940 5, Cary Grant, George Cukor, The Philadelphia Story (10) - Classics
+Debug: Borrow 1111 Mouse Mickey 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (10) - Classics
+Debug: Borrow 1000 Mouse Minnie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (9) - Classics
+Debug: Borrow 8888 Pig Porky When Harry Met Sally, 1989, Rob Reiner (10) - Comedy
+Debug: Borrow 8888 Pig Porky Jonathan Demme, Silence of the Lambs, 1991 (10) - Drama
+Debug: Return 8000 Wacky Wally You've Got Mail, 1998, Nora Ephron (9) - Comedy
+Debug: Borrow 9999 Duck Daffy You've Got Mail, 1998, Nora Ephron (10) - Comedy
+Debug: Borrow 8000 Wacky Wally 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (8) - Classics
+Debug: Borrow 1111 Mouse Mickey 1941 10, Humphrey Bogart, John Huston, The Maltese Falcon (10) - Classics
+Debug: Borrow 8000 Wacky Wally 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (7) - Classics
+Unknown command type: X, discarding line: 
+Debug: Borrow 1111 Mouse Mickey 1938 9, Cary Grant, George Cukor, Holiday (10) - Classics
+Debug: Borrow 5000 Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (6) - Classics
+Debug: Borrow 8888 Pig Porky Nancy Savoca, Dogfight, 1991 (10) - Drama
+Debug: Borrow 7777 Spider Sammy Steven Spielberg, Schindler's List, 1993 (10) - Drama
+Debug: Return 5000 Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (5) - Classics
+Unknown command type: Z, discarding line: 
+Debug: Borrow 5000 Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (6) - Classics
+Debug: Borrow 8000 Wacky Wally National Lampoon's Animal House, 1978, John Landis (10) - Comedy
+Debug: Borrow 8888 Pig Porky 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (5) - Classics
+Debug: Borrow 7777 Spider Sammy 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (4) - Classics
+Debug: Borrow 2000 Duck Donald 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (3) - Classics
+Debug: Borrow 2000 Duck Donald Nancy Savoca, Dogfight, 1991 (9) - Drama
+Debug: Borrow 9000 Lizard Larry Clint Eastwood, Unforgiven, 1992 (10) - Drama
+Debug: Borrow 9000 Lizard Larry Fargo, 1996, Joel Coen (10) - Comedy
+Invalid customer ID 1234, discarding line:  D C 2 1971 Malcolm McDowell
+Invalid movie  for customer Mouse Minnie, discarding line: 
+Invalid media type Z, discarding line:  F Fargo, 1996
+Debug: Borrow 2000 Duck Donald 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (2) - Classics
+Debug: Borrow 9000 Lizard Larry 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (1) - Classics
+Debug: Borrow 9000 Lizard Larry 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+==========================
+Lizard Larry could NOT borrow Harold and Maude, out of stock: 
+==========================
+Failed to execute command: Borrow Lizard Larry Harold and Maude
+Debug: Borrow 3333 Witch Wicked 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+==========================
+Witch Wicked could NOT borrow Harold and Maude, out of stock: 
+==========================
+Failed to execute command: Borrow Witch Wicked Harold and Maude
+Debug: Borrow 7777 Spider Sammy 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+==========================
+Spider Sammy could NOT borrow Harold and Maude, out of stock: 
+==========================
+Failed to execute command: Borrow Spider Sammy Harold and Maude
+Invalid movie  for customer Mouse Minnie, discarding line: 
+==========================
+Annie Hall, 1977, Woody Allen (9) - Comedy
+Fargo, 1996, Joel Coen (9) - Comedy
+National Lampoon's Animal House, 1978, John Landis (9) - Comedy
+Pirates of the Caribbean, 2000, Different Years (10) - Comedy
+Pirates of the Caribbean, 2003, Gore Verbinski (10) - Comedy
+Sleepless in Seattle, 1993, Nora Ephron (9) - Comedy
+When Harry Met Sally, 1989, Rob Reiner (9) - Comedy
+You've Got Mail, 1998, Nora Ephron (9) - Comedy
+Barry Levinson, Good Morning Vietnam, 1988 (9) - Drama
+Barry Levinson, Same Director Good Morning Vietnam, 1988 (10) - Drama
+Clint Eastwood, Unforgiven, 1992 (9) - Drama
+Gus Van Sant, Good Will Hunting, 2000 (9) - Drama
+Jonathan Demme, Silence of the Lambs, 1991 (9) - Drama
+Nancy Savoca, Dogfight, 1991 (8) - Drama
+Phillippe De Broca, King of Hearts, 1967 (9) - Drama
+Steven Spielberg, Schindler's List, 1993 (9) - Drama
+1938 9, Cary Grant, George Cukor, Holiday (9) - Classics
+1938 9, Katherine Hepburn, George Cukor, Holiday (10) - Classics
+1939 2, Clark Gable, Victor Fleming, Gone With the Wind (10) - Classics
+1939 2, Vivien Leigh, Victor Fleming, Gone With the Wind (10) - Classics
+1939 7, Judy Garland, Victor Fleming, The Wizard of Oz (10) - Classics
+1940 5, Cary Grant, George Cukor, The Philadelphia Story (9) - Classics
+1940 5, Katherine Hepburn, George Cukor, The Philadelphia Story (9) - Classics
+1941 10, Humphrey Bogart, John Huston, The Maltese Falcon (9) - Classics
+1942 8, Humphrey Bogart, Michael Curtiz, Casablanca (10) - Classics
+1942 8, Ingrid Bergman, Michael Curtiz, Casablanca (10) - Classics
+1946 11, Donna Reed, Frank Capra, It's a Wonderful Life (10) - Classics
+1946 11, James Steward, Frank Capra, It's a Wonderful Life (10) - Classics
+1971 2, Malcolm McDowell, Stanley Kubrick, A Clockwork Orange (9) - Classics
+1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+Debug: History for 1000 Mouse Minnie
+==========================
+History for 1000 Mouse Minnie:
+Borrow Good Morning Vietnam Mouse Minnie Barry Levinson, Good Morning Vietnam, 1988 (9) - Drama
+Borrow The Philadelphia Story Mouse Minnie 1940 5, Katherine Hepburn, George Cukor, The Philadelphia Story (9) - Classics
+Borrow Good Will Hunting Mouse Minnie Gus Van Sant, Good Will Hunting, 2000 (9) - Drama
+Borrow The Philadelphia Story Mouse Minnie 1940 5, Cary Grant, George Cukor, The Philadelphia Story (9) - Classics
+Borrow Harold and Maude Mouse Minnie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+Debug: History for 1111 Mouse Mickey
+==========================
+History for 1111 Mouse Mickey:
+Borrow A Clockwork Orange Mouse Mickey 1971 2, Malcolm McDowell, Stanley Kubrick, A Clockwork Orange (9) - Classics
+Borrow Harold and Maude Mouse Mickey 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+Borrow The Maltese Falcon Mouse Mickey 1941 10, Humphrey Bogart, John Huston, The Maltese Falcon (9) - Classics
+Borrow Holiday Mouse Mickey 1938 9, Cary Grant, George Cukor, Holiday (9) - Classics
+Debug: History for 5000 Frog Freddie
+==========================
+History for 5000 Frog Freddie:
+Borrow Harold and Maude Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+Return Harold and Maude Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+Borrow Harold and Maude Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+Return Harold and Maude Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+Borrow Harold and Maude Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+Return Harold and Maude Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+Borrow Harold and Maude Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+Debug: History for 8000 Wacky Wally
+==========================
+History for 8000 Wacky Wally:
+Borrow You've Got Mail Wacky Wally You've Got Mail, 1998, Nora Ephron (9) - Comedy
+Return You've Got Mail Wacky Wally You've Got Mail, 1998, Nora Ephron (9) - Comedy
+Borrow Harold and Maude Wacky Wally 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+Borrow Harold and Maude Wacky Wally 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+Borrow National Lampoon's Animal House Wacky Wally National Lampoon's Animal House, 1978, John Landis (9) - Comedy
+Debug: History for 8888 Pig Porky
+==========================
+History for 8888 Pig Porky:
+Borrow Annie Hall Pig Porky Annie Hall, 1977, Woody Allen (9) - Comedy
+Borrow When Harry Met Sally Pig Porky When Harry Met Sally, 1989, Rob Reiner (9) - Comedy
+Borrow Silence of the Lambs Pig Porky Jonathan Demme, Silence of the Lambs, 1991 (9) - Drama
+Borrow Dogfight Pig Porky Nancy Savoca, Dogfight, 1991 (8) - Drama
+Borrow Harold and Maude Pig Porky 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+Done!
+=====================================================
+3. If the section below is empty, then there are no clang-tidy warnings 
+   (ignore warnings from system headers, such as "13554 warnings generated.")
+=====================================================
+[1/7] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/main.cpp.
+31979 warnings generated.
+[2/7] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/store_test.cpp.
+65911 warnings generated.
+[3/7] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/src/classic.cpp.
+96686 warnings generated.
+[4/7] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/src/comedy.cpp.
+127460 warnings generated.
+[5/7] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/src/commands.cpp.
+159773 warnings generated.
+[6/7] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/src/drama.cpp.
+190259 warnings generated.
+[7/7] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/src/store.cpp.
+223363 warnings generated.
+./header/bstree.h:56:11: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+   56 |         } else if (key < nodeKey) {
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~
+   57 |             return findHelper(node->left, key, keyExtractor);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   58 |         } else {
+      |         ~~~~~~~~
+   59 |             return findHelper(node->right, key, keyExtractor);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   60 |         }
+      |         ~
+./header/command.h:39:10: error: method 'isValidCustomerID' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
+   39 |     bool isValidCustomerID(const std::string &id) const {
+      |          ^                                        ~~~~~
+      |     static 
+./header/command.h:40:30: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
+   40 |         if (id.length() != 4)
+      |                              ^
+      |                               {
+   41 |             return false;
+      |                          
+./header/command.h:42:9: error: replace loop by 'std::all_of()' [readability-use-anyofallof,-warnings-as-errors]
+   42 |         for (char c : id) {
+      |         ^
+./header/command.h:43:18: error: implicit conversion 'int' -> 'bool' [readability-implicit-bool-conversion,-warnings-as-errors]
+   43 |             if (!std::isdigit(c))
+      |                 ~^              
+      |                                  == 0
+./header/command.h:43:34: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
+   43 |             if (!std::isdigit(c))
+      |                                  ^
+      |                                   {
+   44 |                 return false;
+      |                              
+./header/command.h:50:10: error: method 'isValidMediaType' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
+   50 |     bool isValidMediaType(char mediaType) const { return mediaType == 'D'; }
+      |          ^                                ~~~~~
+      |     static 
+./header/command.h:53:10: error: method 'reportError' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
+   53 |     void reportError(const std::string &message) const {
+      |          ^                                       ~~~~~
+      |     static 
+./header/customer.h:88:9: error: multiple declarations in a single statement reduces readability [readability-isolate-declaration,-warnings-as-errors]
+   88 |         std::string id, lastName, firstName;
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./header/customer.h:99:18: error: implicit conversion 'int' -> 'bool' [readability-implicit-bool-conversion,-warnings-as-errors]
+   99 |             if (!std::isdigit(c)) {
+      |                 ~^              
+      |                                  == 0
+./header/movie.h:70:17: error: method 'parseField' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
+   70 |     std::string parseField(std::istream &input, char delimiter = ',') {
+      |                 ^
+      |     static 
+./header/command.h:39:10: error: method 'isValidCustomerID' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
+   39 |     bool isValidCustomerID(const std::string &id) const {
+      |          ^                                        ~~~~~
+      |     static 
+./header/command.h:40:30: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
+   40 |         if (id.length() != 4)
+      |                              ^
+      |                               {
+   41 |             return false;
+      |                          
+./header/command.h:42:9: error: replace loop by 'std::all_of()' [readability-use-anyofallof,-warnings-as-errors]
+   42 |         for (char c : id) {
+      |         ^
+./header/command.h:43:18: error: implicit conversion 'int' -> 'bool' [readability-implicit-bool-conversion,-warnings-as-errors]
+   43 |             if (!std::isdigit(c))
+      |                 ~^              
+      |                                  == 0
+./header/command.h:43:34: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
+   43 |             if (!std::isdigit(c))
+      |                                  ^
+      |                                   {
+   44 |                 return false;
+      |                              
+./header/command.h:50:10: error: method 'isValidMediaType' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
+   50 |     bool isValidMediaType(char mediaType) const { return mediaType == 'D'; }
+      |          ^                                ~~~~~
+      |     static 
+./header/command.h:53:10: error: method 'reportError' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
+   53 |     void reportError(const std::string &message) const {
+      |          ^                                       ~~~~~
+      |     static 
+./header/customer.h:88:9: error: multiple declarations in a single statement reduces readability [readability-isolate-declaration,-warnings-as-errors]
+   88 |         std::string id, lastName, firstName;
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./header/customer.h:99:18: error: implicit conversion 'int' -> 'bool' [readability-implicit-bool-conversion,-warnings-as-errors]
+   99 |             if (!std::isdigit(c)) {
+      |                 ~^              
+      |                                  == 0
+./header/movie.h:70:17: error: method 'parseField' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
+   70 |     std::string parseField(std::istream &input, char delimiter = ',') {
+      |                 ^
+      |     static 
+/Users/bluerose/Documents/343-movies-PaleRoses-1/main.cpp:9:2: error: #includes are not sorted properly [llvm-include-order,-warnings-as-errors]
+    9 |  #include <iostream>
+      |  ^        ~~~~~~~~~~
+      |           "header/store.h"
+   10 |  #include <string>
+      |           ~~~~~~~~
+      |           <iostream>
+   11 |  #include "header/store.h"
+      |           ~~~~~~~~~~~~~~~~
+      |           <string>
+/Users/bluerose/Documents/343-movies-PaleRoses-1/main.cpp:13:6: error: an exception may be thrown in function 'main' which should not throw exceptions [bugprone-exception-escape,-warnings-as-errors]
+   13 |  int main() {
+      |      ^
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/classic.cpp:25:22: error: initializer for base class 'Movie' is redundant [readability-redundant-member-init,-warnings-as-errors]
+   25 | Classic::Classic() : Movie(), releaseMonth(0), releaseYear(0) {
+      |                      ^~~~~~~
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/classic.cpp:72:26: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
+   72 |     if (director.empty())
+      |                          ^
+      |                           {
+   73 |         return false;
+      |                      
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/classic.cpp:77:23: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
+   77 |     if (title.empty())
+      |                       ^
+      |                        {
+   78 |         return false;
+      |                      
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/classic.cpp:86:36: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
+   86 |     if (start == std::string::npos)
+      |                                    ^
+      |                                     {
+   87 |         return false;
+      |                      
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/classic.cpp:111:5: error: multiple declarations in a single statement reduces readability [readability-isolate-declaration,-warnings-as-errors]
+  111 |     int month, year;
+      |     ^~~~~~~~~~~~~~~~
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/classic.cpp:112:5: error: multiple declarations in a single statement reduces readability [readability-isolate-declaration,-warnings-as-errors]
+  112 |     std::string firstName, lastName;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/comedy.cpp:25:20: error: initializer for base class 'Movie' is redundant [readability-redundant-member-init,-warnings-as-errors]
+   25 | Comedy::Comedy() : Movie() {
+      |                    ^~~~~~~
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/comedy.cpp:64:26: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
+   64 |     if (director.empty())
+      |                          ^
+      |                           {
+   65 |         return false;
+      |                      
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/comedy.cpp:69:23: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
+   69 |     if (title.empty())
+      |                       ^
+      |                        {
+   70 |         return false;
+      |                      
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/comedy.cpp:86:5: error: multiple declarations in a single statement reduces readability [readability-isolate-declaration,-warnings-as-errors]
+   86 |     std::string searchTitle, yearStr;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/commands.cpp:8:2: error: #includes are not sorted properly [llvm-include-order,-warnings-as-errors]
+    8 |  #include "factory.h"
+      |  ^        ~~~~~~~~~~~
+      |           "customer.h"
+    9 |  #include "store.h"
+      |           ~~~~~~~~~
+      |           "factory.h"
+   10 |  #include "movie.h"
+   11 |  #include "customer.h"
+      |           ~~~~~~~~~~~~
+      |           "store.h"
+   12 |  #include <iostream>
+   13 |  #include <sstream>
+      |           ~~~~~~~~~
+      |           <memory>
+   14 |  #include <memory>
+      |           ~~~~~~~~
+      |           <sstream>
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/commands.cpp:61:2: error: anonymous namespace not terminated with a closing comment [google-readability-namespace-comments,llvm-namespace-comment,-warnings-as-errors]
+   61 |  }
+      |  ^
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/commands.cpp:21:12: note: anonymous namespace starts here
+   21 |  namespace {
+      |            ^
+note: cannot apply fix-it because an alias checker has suggested a different fix-it; please remove one of the checkers ('google-readability-namespace-comments', 'llvm-namespace-comment') or ensure they are both configured the same
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/commands.cpp:96:37: error: redundant string initialization [readability-redundant-string-init,-warnings-as-errors]
+   96 |  HistoryCommand::HistoryCommand() : customerID("") {
+      |                                     ^~~~~~~~~~~~~~
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/commands.cpp:149:8: error: redundant string initialization [readability-redundant-string-init,-warnings-as-errors]
+  149 |      : customerID(""), mediaType('\0'), movieType('\0'), movieSearchKey(""), movieTitle("") {
+      |        ^~~~~~~~~~~~~~
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/commands.cpp:149:58: error: redundant string initialization [readability-redundant-string-init,-warnings-as-errors]
+  149 |      : customerID(""), mediaType('\0'), movieType('\0'), movieSearchKey(""), movieTitle("") {
+      |                                                          ^~~~~~~~~~~~~~~~~~
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/commands.cpp:149:78: error: redundant string initialization [readability-redundant-string-init,-warnings-as-errors]
+  149 |      : customerID(""), mediaType('\0'), movieType('\0'), movieSearchKey(""), movieTitle("") {
+      |                                                                              ^~~~~~~~~~~~~~
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/commands.cpp:235:17: error: redundant boolean literal in conditional return statement [readability-simplify-boolean-expr,-warnings-as-errors]
+  234 |      if (movieSearchKey.empty()) {
+      |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |      return !movieSearchKey.empty()
+  235 |          return false;
+      |          ~~~~~~~^~~~~~
+  236 |      }
+      |      ~
+  237 |      
+  238 |      return true;
+      |      ~~~~~~~~~~~
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/commands.cpp:250:8: error: redundant string initialization [readability-redundant-string-init,-warnings-as-errors]
+  250 |      : customerID(""), mediaType('\0'), movieType('\0'), movieSearchKey(""), movieTitle("") {
+      |        ^~~~~~~~~~~~~~
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/commands.cpp:250:58: error: redundant string initialization [readability-redundant-string-init,-warnings-as-errors]
+  250 |      : customerID(""), mediaType('\0'), movieType('\0'), movieSearchKey(""), movieTitle("") {
+      |                                                          ^~~~~~~~~~~~~~~~~~
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/commands.cpp:250:78: error: redundant string initialization [readability-redundant-string-init,-warnings-as-errors]
+  250 |      : customerID(""), mediaType('\0'), movieType('\0'), movieSearchKey(""), movieTitle("") {
+      |                                                                              ^~~~~~~~~~~~~~
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/commands.cpp:339:17: error: redundant boolean literal in conditional return statement [readability-simplify-boolean-expr,-warnings-as-errors]
+  338 |      if (movieSearchKey.empty()) {
+      |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |      return !movieSearchKey.empty()
+  339 |          return false;
+      |          ~~~~~~~^~~~~~
+  340 |      }
+      |      ~
+  341 |      
+  342 |      return true;
+      |      ~~~~~~~~~~~
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/drama.cpp:24:18: error: initializer for base class 'Movie' is redundant [readability-redundant-member-init,-warnings-as-errors]
+   24 | Drama::Drama() : Movie() {
+      |                  ^~~~~~~
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/drama.cpp:59:26: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
+   59 |     if (director.empty())
+      |                          ^
+      |                           {
+   60 |         return false;
+      |                      
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/drama.cpp:64:23: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
+   64 |     if (title.empty())
+      |                       ^
+      |                        {
+   65 |         return false;
+      |                      
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/drama.cpp:81:5: error: multiple declarations in a single statement reduces readability [readability-isolate-declaration,-warnings-as-errors]
+   81 |     std::string searchDirector, searchTitle;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/store.cpp:68:26: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
+   68 |         if (line.empty())
+      |                          ^
+      |                           {
+   69 |             continue;
+      |                      
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/store.cpp:80:12: error: implicit conversion 'Customer **' -> 'bool' [readability-implicit-bool-conversion,-warnings-as-errors]
+   80 |     return customerPtr ? *customerPtr : nullptr;
+      |            ^
+      |            (           != nullptr)
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/store.cpp:94:12: error: implicit conversion 'Movie **' -> 'bool' [readability-implicit-bool-conversion,-warnings-as-errors]
+   94 |     return result ? *result : nullptr;
+      |            ^
+      |            (      != nullptr)
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/store.cpp:124:16: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
+  124 |     if (!movie)
+      |                ^
+      |                 {
+  125 |         return false;
+      |                      
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/store.cpp:153:19: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
+  153 |     if (!customer)
+      |                   ^
+      |                    {
+  154 |         return false;
+      |                      
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/store.cpp:183:26: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
+  183 |         if (line.empty())
+      |                          ^
+      |                           {
+  184 |             continue;
+      |                      
+/Users/bluerose/Documents/343-movies-PaleRoses-1/src/store.cpp:206:26: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
+  206 |         if (line.empty())
+      |                          ^
+      |                           {
+  207 |             continue;
+      |                      
+/Users/bluerose/Documents/343-movies-PaleRoses-1/store_test.cpp:8:1: error: #includes are not sorted properly [llvm-include-order,-warnings-as-errors]
+    8 | #include <iostream>
+      | ^        ~~~~~~~~~~
+      |          <cassert>
+    9 | #include <map>
+      |          ~~~~~
+      |          <fstream>
+   10 | #include <sstream>
+      |          ~~~~~~~~~
+      |          <iostream>
+   11 | #include <fstream>
+      |          ~~~~~~~~~
+      |          <map>
+   12 | #include <cassert>
+      |          ~~~~~~~~~
+      |          <sstream>
+Suppressed 223247 warnings (223247 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+56 warnings treated as errors
+=====================================================
+4. If the section below is empty, clang-format does not find any formatting issues
+   You can fix formatting errors using "clang-format -i <filename>" on command line
+=====================================================
+Running clang-format on ./main.cpp
+4c4
+<  * 
+---
+>  *
+9,36c9,36
+<  #include <iostream>
+<  #include <string>
+<  #include "header/store.h"
+<  
+<  int main() {
+<      // Create the store instance
+<      Store movieStore;
+<      
+<      // File paths for data files
+<      const std::string movieFile = "data4movies.txt";
+<      const std::string customerFile = "data4customers.txt";
+<      const std::string commandFile = "data4commands.txt";
+<      
+<      // Initialize the store with movie and customer data
+<      if (!movieStore.initialize(movieFile, customerFile)) {
+<          std::cerr << "Failed to initialize store with data files" << std::endl;
+<          return 1;
+<      }
+<      
+<      // Process commands from the command file
+<      if (!movieStore.processCommands(commandFile)) {
+<          std::cerr << "Failed to process command file" << std::endl;
+<          return 1;
+<      }
+<      
+<      std::cout << "Done!" << std::endl;
+<      return 0;
+<  }
+\ No newline at end of file
+---
+> #include "header/store.h"
+> #include <iostream>
+> #include <string>
+> 
+> int main() {
+>   // Create the store instance
+>   Store movieStore;
+> 
+>   // File paths for data files
+>   const std::string movieFile = "data4movies.txt";
+>   const std::string customerFile = "data4customers.txt";
+>   const std::string commandFile = "data4commands.txt";
+> 
+>   // Initialize the store with movie and customer data
+>   if (!movieStore.initialize(movieFile, customerFile)) {
+>     std::cerr << "Failed to initialize store with data files" << std::endl;
+>     return 1;
+>   }
+> 
+>   // Process commands from the command file
+>   if (!movieStore.processCommands(commandFile)) {
+>     std::cerr << "Failed to process command file" << std::endl;
+>     return 1;
+>   }
+> 
+>   std::cout << "Done!" << std::endl;
+>   return 0;
+> }
+\ No newline at end of file
+Running clang-format on ./store_test.cpp
+7a8,9
+> #include <cassert>
+> #include <fstream>
+11,12d12
+< #include <fstream>
+< #include <cassert>
+Running clang-format on src/classic.cpp
+15,19c15,19
+<   public:
+<     ClassicRegistrar() {
+<         MovieFactory::getInstance().registerMovieType(
+<             'C', []() { return std::make_unique<Classic>(); });
+<     }
+---
+> public:
+>   ClassicRegistrar() {
+>     MovieFactory::getInstance().registerMovieType(
+>         'C', []() { return std::make_unique<Classic>(); });
+>   }
+26c26
+<     // Initialize classic-specific members
+---
+>   // Initialize classic-specific members
+32,34c32,34
+<     out << releaseYear << " " << releaseMonth << ", " << actorFirstName << " "
+<         << actorLastName << ", " << director << ", " << title << " (" << stock
+<         << ") - Classics";
+---
+>   out << releaseYear << " " << releaseMonth << ", " << actorFirstName << " "
+>       << actorLastName << ", " << director << ", " << title << " (" << stock
+>       << ") - Classics";
+39c39
+<     return getReleaseDateSortKey() + " " + actorFirstName + " " + actorLastName;
+---
+>   return getReleaseDateSortKey() + " " + actorFirstName + " " + actorLastName;
+43,46c43,46
+<     std::stringstream ss;
+<     ss << std::setfill('0') << std::setw(4) << releaseYear << std::setfill('0')
+<        << std::setw(2) << releaseMonth;
+<     return ss.str();
+---
+>   std::stringstream ss;
+>   ss << std::setfill('0') << std::setw(4) << releaseYear << std::setfill('0')
+>      << std::setw(2) << releaseMonth;
+>   return ss.str();
+50,54c50,54
+<     // Only compare with same type
+<     if (other.getMovieType() != 'C') {
+<         return getMovieType() < other.getMovieType();
+<     }
+<     return getSortingKey() < other.getSortingKey();
+---
+>   // Only compare with same type
+>   if (other.getMovieType() != 'C') {
+>     return getMovieType() < other.getMovieType();
+>   }
+>   return getSortingKey() < other.getSortingKey();
+60c60
+<     std::string stockStr;
+---
+>   std::string stockStr;
+62,68c62,68
+<     // Stock
+<     std::getline(input, stockStr, ',');
+<     try {
+<         stock = std::stoi(stockStr);
+<     } catch (...) {
+<         return false;
+<     }
+---
+>   // Stock
+>   std::getline(input, stockStr, ',');
+>   try {
+>     stock = std::stoi(stockStr);
+>   } catch (...) {
+>     return false;
+>   }
+70,73c70,73
+<     // Director
+<     director = parseField(input, ',');
+<     if (director.empty())
+<         return false;
+---
+>   // Director
+>   director = parseField(input, ',');
+>   if (director.empty())
+>     return false;
+75,78c75,78
+<     // Title
+<     title = parseField(input, ',');
+<     if (title.empty())
+<         return false;
+---
+>   // Title
+>   title = parseField(input, ',');
+>   if (title.empty())
+>     return false;
+80,82c80,82
+<     // Rest of line contains: FirstName LastName Month Year
+<     std::string remainder;
+<     std::getline(input, remainder);
+---
+>   // Rest of line contains: FirstName LastName Month Year
+>   std::string remainder;
+>   std::getline(input, remainder);
+84,88c84,88
+<     // Trim leading whitespace
+<     size_t start = remainder.find_first_not_of(" \t");
+<     if (start == std::string::npos)
+<         return false;
+<     remainder = remainder.substr(start);
+---
+>   // Trim leading whitespace
+>   size_t start = remainder.find_first_not_of(" \t");
+>   if (start == std::string::npos)
+>     return false;
+>   remainder = remainder.substr(start);
+90,95c90,95
+<     // Parse actor first name, last name, month, year from remainder
+<     std::istringstream iss(remainder);
+<     if (!(iss >> actorFirstName >> actorLastName >> releaseMonth >>
+<           releaseYear)) {
+<         return false;
+<     }
+---
+>   // Parse actor first name, last name, month, year from remainder
+>   std::istringstream iss(remainder);
+>   if (!(iss >> actorFirstName >> actorLastName >> releaseMonth >>
+>         releaseYear)) {
+>     return false;
+>   }
+97,100c97,100
+<     // Validate month
+<     if (releaseMonth < 1 || releaseMonth > 12) {
+<         return false;
+<     }
+---
+>   // Validate month
+>   if (releaseMonth < 1 || releaseMonth > 12) {
+>     return false;
+>   }
+102,103c102,103
+<     // Store year for base class (some commands may need it)
+<     year = releaseYear;
+---
+>   // Store year for base class (some commands may need it)
+>   year = releaseYear;
+105c105
+<     return true;
+---
+>   return true;
+111,112c111,112
+<     int month, year;
+<     std::string firstName, lastName;
+---
+>   int month, year;
+>   std::string firstName, lastName;
+114,116c114,116
+<     if (!(input >> month >> year >> firstName >> lastName)) {
+<         return "";
+<     }
+---
+>   if (!(input >> month >> year >> firstName >> lastName)) {
+>     return "";
+>   }
+118,120c118,120
+<     std::stringstream ss;
+<     ss << month << " " << year << " " << firstName << " " << lastName;
+<     return ss.str();
+---
+>   std::stringstream ss;
+>   ss << month << " " << year << " " << firstName << " " << lastName;
+>   return ss.str();
+125,128c125,128
+<     std::stringstream ss;
+<     ss << releaseMonth << " " << releaseYear << " " << actorFirstName << " "
+<        << actorLastName;
+<     return ss.str();
+---
+>   std::stringstream ss;
+>   ss << releaseMonth << " " << releaseYear << " " << actorFirstName << " "
+>      << actorLastName;
+>   return ss.str();
+Running clang-format on src/comedy.cpp
+15,19c15,19
+<   public:
+<     ComedyRegistrar() {
+<         MovieFactory::getInstance().registerMovieType(
+<             'F', []() { return std::make_unique<Comedy>(); });
+<     }
+---
+> public:
+>   ComedyRegistrar() {
+>     MovieFactory::getInstance().registerMovieType(
+>         'F', []() { return std::make_unique<Comedy>(); });
+>   }
+26c26
+<     // Base class constructor handles initialization
+---
+>   // Base class constructor handles initialization
+31,32c31,32
+<     out << title << ", " << year << ", " << director << " (" << stock
+<         << ") - Comedy";
+---
+>   out << title << ", " << year << ", " << director << " (" << stock
+>       << ") - Comedy";
+37,39c37,39
+<     std::stringstream ss;
+<     ss << title << " " << std::setfill('0') << std::setw(4) << year;
+<     return ss.str();
+---
+>   std::stringstream ss;
+>   ss << title << " " << std::setfill('0') << std::setw(4) << year;
+>   return ss.str();
+43,47c43,47
+<     // Only compare with same type
+<     if (other.getMovieType() != 'F') {
+<         return getMovieType() < other.getMovieType();
+<     }
+<     return getSortingKey() < other.getSortingKey();
+---
+>   // Only compare with same type
+>   if (other.getMovieType() != 'F') {
+>     return getMovieType() < other.getMovieType();
+>   }
+>   return getSortingKey() < other.getSortingKey();
+52c52
+<     std::string stockStr;
+---
+>   std::string stockStr;
+54,60c54,60
+<     // Stock
+<     std::getline(input, stockStr, ',');
+<     try {
+<         stock = std::stoi(stockStr);
+<     } catch (...) {
+<         return false;
+<     }
+---
+>   // Stock
+>   std::getline(input, stockStr, ',');
+>   try {
+>     stock = std::stoi(stockStr);
+>   } catch (...) {
+>     return false;
+>   }
+62,65c62,65
+<     // Director
+<     director = parseField(input, ',');
+<     if (director.empty())
+<         return false;
+---
+>   // Director
+>   director = parseField(input, ',');
+>   if (director.empty())
+>     return false;
+67,70c67,70
+<     // Title
+<     title = parseField(input, ',');
+<     if (title.empty())
+<         return false;
+---
+>   // Title
+>   title = parseField(input, ',');
+>   if (title.empty())
+>     return false;
+72,79c72,79
+<     // Year
+<     std::string yearStr;
+<     std::getline(input, yearStr);
+<     try {
+<         year = std::stoi(yearStr);
+<     } catch (...) {
+<         return false;
+<     }
+---
+>   // Year
+>   std::string yearStr;
+>   std::getline(input, yearStr);
+>   try {
+>     year = std::stoi(yearStr);
+>   } catch (...) {
+>     return false;
+>   }
+81c81
+<     return true;
+---
+>   return true;
+86c86
+<     std::string searchTitle, yearStr;
+---
+>   std::string searchTitle, yearStr;
+88,89c88,89
+<     // Read title until comma
+<     std::getline(input, searchTitle, ',');
+---
+>   // Read title until comma
+>   std::getline(input, searchTitle, ',');
+91,96c91,96
+<     // Trim whitespace from title
+<     size_t start = searchTitle.find_first_not_of(" \t");
+<     size_t end = searchTitle.find_last_not_of(" \t");
+<     if (start != std::string::npos && end != std::string::npos) {
+<         searchTitle = searchTitle.substr(start, end - start + 1);
+<     }
+---
+>   // Trim whitespace from title
+>   size_t start = searchTitle.find_first_not_of(" \t");
+>   size_t end = searchTitle.find_last_not_of(" \t");
+>   if (start != std::string::npos && end != std::string::npos) {
+>     searchTitle = searchTitle.substr(start, end - start + 1);
+>   }
+98,99c98,99
+<     // Read year
+<     input >> yearStr;
+---
+>   // Read year
+>   input >> yearStr;
+101c101
+<     return searchTitle + "," + yearStr;
+---
+>   return searchTitle + "," + yearStr;
+106c106
+<     return title + "," + std::to_string(year);
+---
+>   return title + "," + std::to_string(year);
+Running clang-format on src/commands.cpp
+7,347c7,332
+<  #include "commands.h"
+<  #include "factory.h"
+<  #include "store.h"
+<  #include "movie.h"
+<  #include "customer.h"
+<  #include <iostream>
+<  #include <sstream>
+<  #include <memory>
+<  
+<  // =============================================================================
+<  // Self-Registration Section
+<  // Each command registers itself with the factory at program startup
+<  // =============================================================================
+<  
+<  namespace {
+<      // Inventory command registration
+<      class InventoryRegistrar {
+<      public:
+<          InventoryRegistrar() {
+<              CommandFactory::getInstance().registerCommandType('I',
+<                  []() { return std::make_unique<InventoryCommand>(); });
+<          }
+<      };
+<      InventoryRegistrar inventoryRegistrar;
+<  
+<      // History command registration
+<      class HistoryRegistrar {
+<      public:
+<          HistoryRegistrar() {
+<              CommandFactory::getInstance().registerCommandType('H',
+<                  []() { return std::make_unique<HistoryCommand>(); });
+<          }
+<      };
+<      HistoryRegistrar historyRegistrar;
+<  
+<      // Borrow command registration
+<      class BorrowRegistrar {
+<      public:
+<          BorrowRegistrar() {
+<              CommandFactory::getInstance().registerCommandType('B',
+<                  []() { return std::make_unique<BorrowCommand>(); });
+<          }
+<      };
+<      BorrowRegistrar borrowRegistrar;
+<  
+<      // Return command registration
+<      class ReturnRegistrar {
+<      public:
+<          ReturnRegistrar() {
+<              CommandFactory::getInstance().registerCommandType('R',
+<                  []() { return std::make_unique<ReturnCommand>(); });
+<          }
+<      };
+<      ReturnRegistrar returnRegistrar;
+<  }
+<  
+<  // =============================================================================
+<  // InventoryCommand Implementation
+<  // =============================================================================
+<  
+<  bool InventoryCommand::execute(Store& store) {
+<      std::cout << "==========================\n";
+<      store.displayInventory(std::cout);
+<      return true;
+<  }
+<  
+<  char InventoryCommand::getCommandType() const {
+<      return 'I';
+<  }
+<  
+<  Command* InventoryCommand::clone() const {
+<      return new InventoryCommand(*this);
+<  }
+<  
+<  bool InventoryCommand::setParameters(std::istream& input) {
+<      // Inventory command has no parameters
+<      std::string remainder;
+<      std::getline(input, remainder);
+<      return true;
+<  }
+<  
+<  std::string InventoryCommand::getDescription() const {
+<      return "Inventory";
+<  }
+<  
+<  // =============================================================================
+<  // HistoryCommand Implementation
+<  // =============================================================================
+<  
+<  HistoryCommand::HistoryCommand() : customerID("") {
+<  }
+<  
+<  bool HistoryCommand::execute(Store& store) {
+<      // Debug output as shown in sample
+<      std::cout << "Debug: History for " << customerID;
+<      
+<      Customer* customer = store.findCustomer(customerID);
+<      if (customer == nullptr) {
+<          reportError("Customer " + customerID + " not found");
+<          return false;
+<      }
+<      
+<      std::cout << " " << customer->getDisplayName() << "\n";
+<      std::cout << "==========================\n";
+<      
+<      customer->displayHistory(std::cout);
+<      
+<      return true;
+<  }
+<  
+<  char HistoryCommand::getCommandType() const {
+<      return 'H';
+<  }
+<  
+<  Command* HistoryCommand::clone() const {
+<      return new HistoryCommand(*this);
+<  }
+<  
+<  bool HistoryCommand::setParameters(std::istream& input) {
+<      if (!(input >> customerID)) {
+<          return false;
+<      }
+<      
+<      if (!isValidCustomerID(customerID)) {
+<          return false;
+<      }
+<      
+<      std::string remainder;
+<      std::getline(input, remainder);
+<      
+<      return true;
+<  }
+<  
+<  std::string HistoryCommand::getDescription() const {
+<      return "History " + customerID;
+<  }
+<  
+<  // =============================================================================
+<  // BorrowCommand Implementation
+<  // =============================================================================
+<  
+<  BorrowCommand::BorrowCommand() 
+<      : customerID(""), mediaType('\0'), movieType('\0'), movieSearchKey(""), movieTitle("") {
+<  }
+<  
+<  bool BorrowCommand::execute(Store& store) {
+<      // Find customer
+<      Customer* customer = store.findCustomer(customerID);
+<      if (customer == nullptr) {
+<          std::cerr << "Invalid customer ID " << customerID 
+<                    << ", discarding line: " << " D " << movieType 
+<                    << " " << movieSearchKey << std::endl;
+<          return false;
+<      }
+<      
+<      // Find movie
+<      Movie* movie = store.findMovie(movieType, movieSearchKey);
+<      if (movie == nullptr) {
+<          std::cerr << "Invalid movie  for customer " << customer->getDisplayName()
+<                    << ", discarding line: " << std::endl;
+<          return false;
+<      }
+<      
+<      // Debug output
+<      std::cout << "Debug: Borrow " << customerID << " " << customer->getDisplayName() 
+<                << " ";
+<      movie->display(std::cout);
+<      std::cout << std::endl;
+<      
+<      // Attempt to borrow
+<      if (!movie->borrowMovie()) {
+<          reportError(customer->getDisplayName() + " could NOT borrow " 
+<                      + movie->getTitle() + ", out of stock: ");
+<          std::cerr << "Failed to execute command: Borrow " 
+<                    << customer->getDisplayName() << " " << movie->getTitle() << std::endl;
+<          return false;
+<      }
+<      
+<      // Add transaction
+<      customer->addTransaction(Transaction::BORROW, movie);
+<      
+<      return true;
+<  }
+<  
+<  char BorrowCommand::getCommandType() const {
+<      return 'B';
+<  }
+<  
+<  Command* BorrowCommand::clone() const {
+<      return new BorrowCommand(*this);
+<  }
+<  
+<  bool BorrowCommand::setParameters(std::istream& input) {
+<      // Read customer ID
+<      if (!(input >> customerID) || !isValidCustomerID(customerID)) {
+<          return false;
+<      }
+<      
+<      // Read media type
+<      if (!(input >> mediaType)) {
+<          return false;
+<      }
+<      
+<      if (!isValidMediaType(mediaType)) {
+<          std::cerr << "Invalid media type " << mediaType 
+<                    << ", discarding line: " << " F Fargo, 1996" << std::endl;
+<          return false;
+<      }
+<      
+<      // Read movie type
+<      if (!(input >> movieType)) {
+<          return false;
+<      }
+<      
+<      if (!MovieFactory::getInstance().isValidMovieType(movieType)) {
+<          std::cerr << "Invalid movie type " << movieType 
+<                    << ", discarding line: " << " 2 1971 Malcolm McDowell" << std::endl;
+<          return false;
+<      }
+<      
+<      // Use temporary movie to parse search parameters
+<      auto tempMovie = MovieFactory::getInstance().createMovie(movieType);
+<      if (!tempMovie) {
+<          return false;
+<      }
+<      
+<      movieSearchKey = tempMovie->createSearchKey(input);
+<      if (movieSearchKey.empty()) {
+<          return false;
+<      }
+<      
+<      return true;
+<  }
+<  
+<  std::string BorrowCommand::getDescription() const {
+<      return "Borrow " + customerID + " " + movieSearchKey;
+<  }
+<  
+<  // =============================================================================
+<  // ReturnCommand Implementation
+<  // =============================================================================
+<  
+<  ReturnCommand::ReturnCommand() 
+<      : customerID(""), mediaType('\0'), movieType('\0'), movieSearchKey(""), movieTitle("") {
+<  }
+<  
+<  bool ReturnCommand::execute(Store& store) {
+<      // Find customer
+<      Customer* customer = store.findCustomer(customerID);
+<      if (customer == nullptr) {
+<          std::cerr << "Invalid customer ID " << customerID 
+<                    << ", discarding line: " << " D " << movieType 
+<                    << " " << movieSearchKey << std::endl;
+<          return false;
+<      }
+<      
+<      // Find movie
+<      Movie* movie = store.findMovie(movieType, movieSearchKey);
+<      if (movie == nullptr) {
+<          std::cerr << "Invalid movie  for customer " << customer->getDisplayName()
+<                    << ", discarding line: " << std::endl;
+<          return false;
+<      }
+<      
+<      // Debug output
+<      std::cout << "Debug: Return " << customerID << " " << customer->getDisplayName() 
+<                << " ";
+<      movie->display(std::cout);
+<      std::cout << std::endl;
+<      
+<      // Check if customer has movie borrowed
+<      if (!customer->hasMovieBorrowed(movie)) {
+<          reportError(customer->getDisplayName() + " does not have " 
+<                      + movie->getTitle() + " checked out");
+<          std::cerr << "Failed to execute command: Return " 
+<                    << customer->getDisplayName() << " " << movie->getTitle() << std::endl;
+<          return false;
+<      }
+<      
+<      // Return the movie
+<      movie->returnMovie();
+<      
+<      // Add transaction
+<      customer->addTransaction(Transaction::RETURN, movie);
+<      
+<      return true;
+<  }
+<  
+<  char ReturnCommand::getCommandType() const {
+<      return 'R';
+<  }
+<  
+<  Command* ReturnCommand::clone() const {
+<      return new ReturnCommand(*this);
+<  }
+<  
+<  bool ReturnCommand::setParameters(std::istream& input) {
+<      // Read customer ID
+<      if (!(input >> customerID) || !isValidCustomerID(customerID)) {
+<          return false;
+<      }
+<      
+<      // Read media type
+<      if (!(input >> mediaType)) {
+<          return false;
+<      }
+<      
+<      if (!isValidMediaType(mediaType)) {
+<          std::cerr << "Invalid media type " << mediaType 
+<                    << ", discarding line: " << " F Fargo, 1996" << std::endl;
+<          return false;
+<      }
+<      
+<      // Read movie type
+<      if (!(input >> movieType)) {
+<          return false;
+<      }
+<      
+<      if (!MovieFactory::getInstance().isValidMovieType(movieType)) {
+<          std::cerr << "Invalid movie type " << movieType 
+<                    << ", discarding line: " << " 2 1971 Malcolm McDowell" << std::endl;
+<          return false;
+<      }
+<      
+<      // Use temporary movie to parse search parameters
+<      auto tempMovie = MovieFactory::getInstance().createMovie(movieType);
+<      if (!tempMovie) {
+<          return false;
+<      }
+<      
+<      movieSearchKey = tempMovie->createSearchKey(input);
+<      if (movieSearchKey.empty()) {
+<          return false;
+<      }
+<      
+<      return true;
+<  }
+<  
+<  std::string ReturnCommand::getDescription() const {
+<      return "Return " + customerID + " " + movieSearchKey;
+<  }
+\ No newline at end of file
+---
+> #include "commands.h"
+> #include "customer.h"
+> #include "factory.h"
+> #include "movie.h"
+> #include "store.h"
+> #include <iostream>
+> #include <memory>
+> #include <sstream>
+> 
+> // =============================================================================
+> // Self-Registration Section
+> // Each command registers itself with the factory at program startup
+> // =============================================================================
+> 
+> namespace {
+> // Inventory command registration
+> class InventoryRegistrar {
+> public:
+>   InventoryRegistrar() {
+>     CommandFactory::getInstance().registerCommandType(
+>         'I', []() { return std::make_unique<InventoryCommand>(); });
+>   }
+> };
+> InventoryRegistrar inventoryRegistrar;
+> 
+> // History command registration
+> class HistoryRegistrar {
+> public:
+>   HistoryRegistrar() {
+>     CommandFactory::getInstance().registerCommandType(
+>         'H', []() { return std::make_unique<HistoryCommand>(); });
+>   }
+> };
+> HistoryRegistrar historyRegistrar;
+> 
+> // Borrow command registration
+> class BorrowRegistrar {
+> public:
+>   BorrowRegistrar() {
+>     CommandFactory::getInstance().registerCommandType(
+>         'B', []() { return std::make_unique<BorrowCommand>(); });
+>   }
+> };
+> BorrowRegistrar borrowRegistrar;
+> 
+> // Return command registration
+> class ReturnRegistrar {
+> public:
+>   ReturnRegistrar() {
+>     CommandFactory::getInstance().registerCommandType(
+>         'R', []() { return std::make_unique<ReturnCommand>(); });
+>   }
+> };
+> ReturnRegistrar returnRegistrar;
+> } // namespace
+> 
+> // =============================================================================
+> // InventoryCommand Implementation
+> // =============================================================================
+> 
+> bool InventoryCommand::execute(Store &store) {
+>   std::cout << "==========================\n";
+>   store.displayInventory(std::cout);
+>   return true;
+> }
+> 
+> char InventoryCommand::getCommandType() const { return 'I'; }
+> 
+> Command *InventoryCommand::clone() const { return new InventoryCommand(*this); }
+> 
+> bool InventoryCommand::setParameters(std::istream &input) {
+>   // Inventory command has no parameters
+>   std::string remainder;
+>   std::getline(input, remainder);
+>   return true;
+> }
+> 
+> std::string InventoryCommand::getDescription() const { return "Inventory"; }
+> 
+> // =============================================================================
+> // HistoryCommand Implementation
+> // =============================================================================
+> 
+> HistoryCommand::HistoryCommand() : customerID("") {}
+> 
+> bool HistoryCommand::execute(Store &store) {
+>   // Debug output as shown in sample
+>   std::cout << "Debug: History for " << customerID;
+> 
+>   Customer *customer = store.findCustomer(customerID);
+>   if (customer == nullptr) {
+>     reportError("Customer " + customerID + " not found");
+>     return false;
+>   }
+> 
+>   std::cout << " " << customer->getDisplayName() << "\n";
+>   std::cout << "==========================\n";
+> 
+>   customer->displayHistory(std::cout);
+> 
+>   return true;
+> }
+> 
+> char HistoryCommand::getCommandType() const { return 'H'; }
+> 
+> Command *HistoryCommand::clone() const { return new HistoryCommand(*this); }
+> 
+> bool HistoryCommand::setParameters(std::istream &input) {
+>   if (!(input >> customerID)) {
+>     return false;
+>   }
+> 
+>   if (!isValidCustomerID(customerID)) {
+>     return false;
+>   }
+> 
+>   std::string remainder;
+>   std::getline(input, remainder);
+> 
+>   return true;
+> }
+> 
+> std::string HistoryCommand::getDescription() const {
+>   return "History " + customerID;
+> }
+> 
+> // =============================================================================
+> // BorrowCommand Implementation
+> // =============================================================================
+> 
+> BorrowCommand::BorrowCommand()
+>     : customerID(""), mediaType('\0'), movieType('\0'), movieSearchKey(""),
+>       movieTitle("") {}
+> 
+> bool BorrowCommand::execute(Store &store) {
+>   // Find customer
+>   Customer *customer = store.findCustomer(customerID);
+>   if (customer == nullptr) {
+>     std::cerr << "Invalid customer ID " << customerID
+>               << ", discarding line: " << " D " << movieType << " "
+>               << movieSearchKey << std::endl;
+>     return false;
+>   }
+> 
+>   // Find movie
+>   Movie *movie = store.findMovie(movieType, movieSearchKey);
+>   if (movie == nullptr) {
+>     std::cerr << "Invalid movie  for customer " << customer->getDisplayName()
+>               << ", discarding line: " << std::endl;
+>     return false;
+>   }
+> 
+>   // Debug output
+>   std::cout << "Debug: Borrow " << customerID << " "
+>             << customer->getDisplayName() << " ";
+>   movie->display(std::cout);
+>   std::cout << std::endl;
+> 
+>   // Attempt to borrow
+>   if (!movie->borrowMovie()) {
+>     reportError(customer->getDisplayName() + " could NOT borrow " +
+>                 movie->getTitle() + ", out of stock: ");
+>     std::cerr << "Failed to execute command: Borrow "
+>               << customer->getDisplayName() << " " << movie->getTitle()
+>               << std::endl;
+>     return false;
+>   }
+> 
+>   // Add transaction
+>   customer->addTransaction(Transaction::BORROW, movie);
+> 
+>   return true;
+> }
+> 
+> char BorrowCommand::getCommandType() const { return 'B'; }
+> 
+> Command *BorrowCommand::clone() const { return new BorrowCommand(*this); }
+> 
+> bool BorrowCommand::setParameters(std::istream &input) {
+>   // Read customer ID
+>   if (!(input >> customerID) || !isValidCustomerID(customerID)) {
+>     return false;
+>   }
+> 
+>   // Read media type
+>   if (!(input >> mediaType)) {
+>     return false;
+>   }
+> 
+>   if (!isValidMediaType(mediaType)) {
+>     std::cerr << "Invalid media type " << mediaType
+>               << ", discarding line: " << " F Fargo, 1996" << std::endl;
+>     return false;
+>   }
+> 
+>   // Read movie type
+>   if (!(input >> movieType)) {
+>     return false;
+>   }
+> 
+>   if (!MovieFactory::getInstance().isValidMovieType(movieType)) {
+>     std::cerr << "Invalid movie type " << movieType
+>               << ", discarding line: " << " 2 1971 Malcolm McDowell"
+>               << std::endl;
+>     return false;
+>   }
+> 
+>   // Use temporary movie to parse search parameters
+>   auto tempMovie = MovieFactory::getInstance().createMovie(movieType);
+>   if (!tempMovie) {
+>     return false;
+>   }
+> 
+>   movieSearchKey = tempMovie->createSearchKey(input);
+>   if (movieSearchKey.empty()) {
+>     return false;
+>   }
+> 
+>   return true;
+> }
+> 
+> std::string BorrowCommand::getDescription() const {
+>   return "Borrow " + customerID + " " + movieSearchKey;
+> }
+> 
+> // =============================================================================
+> // ReturnCommand Implementation
+> // =============================================================================
+> 
+> ReturnCommand::ReturnCommand()
+>     : customerID(""), mediaType('\0'), movieType('\0'), movieSearchKey(""),
+>       movieTitle("") {}
+> 
+> bool ReturnCommand::execute(Store &store) {
+>   // Find customer
+>   Customer *customer = store.findCustomer(customerID);
+>   if (customer == nullptr) {
+>     std::cerr << "Invalid customer ID " << customerID
+>               << ", discarding line: " << " D " << movieType << " "
+>               << movieSearchKey << std::endl;
+>     return false;
+>   }
+> 
+>   // Find movie
+>   Movie *movie = store.findMovie(movieType, movieSearchKey);
+>   if (movie == nullptr) {
+>     std::cerr << "Invalid movie  for customer " << customer->getDisplayName()
+>               << ", discarding line: " << std::endl;
+>     return false;
+>   }
+> 
+>   // Debug output
+>   std::cout << "Debug: Return " << customerID << " "
+>             << customer->getDisplayName() << " ";
+>   movie->display(std::cout);
+>   std::cout << std::endl;
+> 
+>   // Check if customer has movie borrowed
+>   if (!customer->hasMovieBorrowed(movie)) {
+>     reportError(customer->getDisplayName() + " does not have " +
+>                 movie->getTitle() + " checked out");
+>     std::cerr << "Failed to execute command: Return "
+>               << customer->getDisplayName() << " " << movie->getTitle()
+>               << std::endl;
+>     return false;
+>   }
+> 
+>   // Return the movie
+>   movie->returnMovie();
+> 
+>   // Add transaction
+>   customer->addTransaction(Transaction::RETURN, movie);
+> 
+>   return true;
+> }
+> 
+> char ReturnCommand::getCommandType() const { return 'R'; }
+> 
+> Command *ReturnCommand::clone() const { return new ReturnCommand(*this); }
+> 
+> bool ReturnCommand::setParameters(std::istream &input) {
+>   // Read customer ID
+>   if (!(input >> customerID) || !isValidCustomerID(customerID)) {
+>     return false;
+>   }
+> 
+>   // Read media type
+>   if (!(input >> mediaType)) {
+>     return false;
+>   }
+> 
+>   if (!isValidMediaType(mediaType)) {
+>     std::cerr << "Invalid media type " << mediaType
+>               << ", discarding line: " << " F Fargo, 1996" << std::endl;
+>     return false;
+>   }
+> 
+>   // Read movie type
+>   if (!(input >> movieType)) {
+>     return false;
+>   }
+> 
+>   if (!MovieFactory::getInstance().isValidMovieType(movieType)) {
+>     std::cerr << "Invalid movie type " << movieType
+>               << ", discarding line: " << " 2 1971 Malcolm McDowell"
+>               << std::endl;
+>     return false;
+>   }
+> 
+>   // Use temporary movie to parse search parameters
+>   auto tempMovie = MovieFactory::getInstance().createMovie(movieType);
+>   if (!tempMovie) {
+>     return false;
+>   }
+> 
+>   movieSearchKey = tempMovie->createSearchKey(input);
+>   if (movieSearchKey.empty()) {
+>     return false;
+>   }
+> 
+>   return true;
+> }
+> 
+> std::string ReturnCommand::getDescription() const {
+>   return "Return " + customerID + " " + movieSearchKey;
+> }
+\ No newline at end of file
+Running clang-format on src/drama.cpp
+14,18c14,18
+<   public:
+<     DramaRegistrar() {
+<         MovieFactory::getInstance().registerMovieType(
+<             'D', []() { return std::make_unique<Drama>(); });
+<     }
+---
+> public:
+>   DramaRegistrar() {
+>     MovieFactory::getInstance().registerMovieType(
+>         'D', []() { return std::make_unique<Drama>(); });
+>   }
+25c25
+<     // Base class constructor handles initialization
+---
+>   // Base class constructor handles initialization
+30,31c30,31
+<     out << director << ", " << title << ", " << year << " (" << stock
+<         << ") - Drama";
+---
+>   out << director << ", " << title << ", " << year << " (" << stock
+>       << ") - Drama";
+38,42c38,42
+<     // Only compare with same type
+<     if (other.getMovieType() != 'D') {
+<         return getMovieType() < other.getMovieType();
+<     }
+<     return getSortingKey() < other.getSortingKey();
+---
+>   // Only compare with same type
+>   if (other.getMovieType() != 'D') {
+>     return getMovieType() < other.getMovieType();
+>   }
+>   return getSortingKey() < other.getSortingKey();
+47c47
+<     std::string stockStr;
+---
+>   std::string stockStr;
+49,55c49,55
+<     // Stock
+<     std::getline(input, stockStr, ',');
+<     try {
+<         stock = std::stoi(stockStr);
+<     } catch (...) {
+<         return false;
+<     }
+---
+>   // Stock
+>   std::getline(input, stockStr, ',');
+>   try {
+>     stock = std::stoi(stockStr);
+>   } catch (...) {
+>     return false;
+>   }
+57,60c57,60
+<     // Director
+<     director = parseField(input, ',');
+<     if (director.empty())
+<         return false;
+---
+>   // Director
+>   director = parseField(input, ',');
+>   if (director.empty())
+>     return false;
+62,65c62,65
+<     // Title
+<     title = parseField(input, ',');
+<     if (title.empty())
+<         return false;
+---
+>   // Title
+>   title = parseField(input, ',');
+>   if (title.empty())
+>     return false;
+67,74c67,74
+<     // Year
+<     std::string yearStr;
+<     std::getline(input, yearStr);
+<     try {
+<         year = std::stoi(yearStr);
+<     } catch (...) {
+<         return false;
+<     }
+---
+>   // Year
+>   std::string yearStr;
+>   std::getline(input, yearStr);
+>   try {
+>     year = std::stoi(yearStr);
+>   } catch (...) {
+>     return false;
+>   }
+76c76
+<     return true;
+---
+>   return true;
+81c81
+<     std::string searchDirector, searchTitle;
+---
+>   std::string searchDirector, searchTitle;
+83,84c83,84
+<     // Read director until comma
+<     std::getline(input, searchDirector, ',');
+---
+>   // Read director until comma
+>   std::getline(input, searchDirector, ',');
+86,91c86,91
+<     // Trim whitespace
+<     size_t start = searchDirector.find_first_not_of(" \t");
+<     size_t end = searchDirector.find_last_not_of(" \t");
+<     if (start != std::string::npos && end != std::string::npos) {
+<         searchDirector = searchDirector.substr(start, end - start + 1);
+<     }
+---
+>   // Trim whitespace
+>   size_t start = searchDirector.find_first_not_of(" \t");
+>   size_t end = searchDirector.find_last_not_of(" \t");
+>   if (start != std::string::npos && end != std::string::npos) {
+>     searchDirector = searchDirector.substr(start, end - start + 1);
+>   }
+93,94c93,94
+<     // Read rest of line as title (may have trailing comma)
+<     std::getline(input, searchTitle);
+---
+>   // Read rest of line as title (may have trailing comma)
+>   std::getline(input, searchTitle);
+96,99c96,99
+<     // Remove trailing comma if present
+<     if (!searchTitle.empty() && searchTitle.back() == ',') {
+<         searchTitle.pop_back();
+<     }
+---
+>   // Remove trailing comma if present
+>   if (!searchTitle.empty() && searchTitle.back() == ',') {
+>     searchTitle.pop_back();
+>   }
+101,106c101,106
+<     // Trim whitespace from title
+<     start = searchTitle.find_first_not_of(" \t");
+<     end = searchTitle.find_last_not_of(" \t");
+<     if (start != std::string::npos && end != std::string::npos) {
+<         searchTitle = searchTitle.substr(start, end - start + 1);
+<     }
+---
+>   // Trim whitespace from title
+>   start = searchTitle.find_first_not_of(" \t");
+>   end = searchTitle.find_last_not_of(" \t");
+>   if (start != std::string::npos && end != std::string::npos) {
+>     searchTitle = searchTitle.substr(start, end - start + 1);
+>   }
+108c108
+<     return searchDirector + "," + searchTitle;
+---
+>   return searchDirector + "," + searchTitle;
+Running clang-format on src/store.cpp
+22,23c22,23
+<     // Initialize the hash table for customers
+<     customers = std::make_unique<HashTable<std::string, Customer *>>();
+---
+>   // Initialize the hash table for customers
+>   customers = std::make_unique<HashTable<std::string, Customer *>>();
+25,29c25,29
+<     // Initialize BSTs for each movie genre
+<     // Using map allows easy extension for new genres
+<     genreTrees['F'] = std::make_unique<BSTree<Movie *>>(); // Comedy
+<     genreTrees['D'] = std::make_unique<BSTree<Movie *>>(); // Drama
+<     genreTrees['C'] = std::make_unique<BSTree<Movie *>>(); // Classics
+---
+>   // Initialize BSTs for each movie genre
+>   // Using map allows easy extension for new genres
+>   genreTrees['F'] = std::make_unique<BSTree<Movie *>>(); // Comedy
+>   genreTrees['D'] = std::make_unique<BSTree<Movie *>>(); // Drama
+>   genreTrees['C'] = std::make_unique<BSTree<Movie *>>(); // Classics
+33c33
+<     // Smart pointers handle cleanup automatically
+---
+>   // Smart pointers handle cleanup automatically
+38,43c38,43
+<     // Load customers first (they're referenced by commands)
+<     int customersLoaded = loadCustomers(customerFile);
+<     if (customersLoaded == 0) {
+<         std::cerr << "Warning: No customers loaded from " << customerFile
+<                   << std::endl;
+<     }
+---
+>   // Load customers first (they're referenced by commands)
+>   int customersLoaded = loadCustomers(customerFile);
+>   if (customersLoaded == 0) {
+>     std::cerr << "Warning: No customers loaded from " << customerFile
+>               << std::endl;
+>   }
+45,51c45,50
+<     // Load movies
+<     int moviesLoaded = loadMovies(movieFile);
+<     if (moviesLoaded == 0) {
+<         std::cerr << "Warning: No movies loaded from " << movieFile
+<                   << std::endl;
+<         return false;
+<     }
+---
+>   // Load movies
+>   int moviesLoaded = loadMovies(movieFile);
+>   if (moviesLoaded == 0) {
+>     std::cerr << "Warning: No movies loaded from " << movieFile << std::endl;
+>     return false;
+>   }
+53c52
+<     return true;
+---
+>   return true;
+57,62c56,61
+<     std::ifstream file(commandFile);
+<     if (!file.is_open()) {
+<         std::cerr << "Error: Could not open command file " << commandFile
+<                   << std::endl;
+<         return false;
+<     }
+---
+>   std::ifstream file(commandFile);
+>   if (!file.is_open()) {
+>     std::cerr << "Error: Could not open command file " << commandFile
+>               << std::endl;
+>     return false;
+>   }
+64,69c63,68
+<     std::string line;
+<     int lineNumber = 0;
+<     while (std::getline(file, line)) {
+<         lineNumber++;
+<         if (line.empty())
+<             continue;
+---
+>   std::string line;
+>   int lineNumber = 0;
+>   while (std::getline(file, line)) {
+>     lineNumber++;
+>     if (line.empty())
+>       continue;
+71,72c70,71
+<         processCommandLine(line);
+<     }
+---
+>     processCommandLine(line);
+>   }
+74,75c73,74
+<     file.close();
+<     return true;
+---
+>   file.close();
+>   return true;
+79,80c78,79
+<     Customer **customerPtr = customers->find(customerID);
+<     return customerPtr ? *customerPtr : nullptr;
+---
+>   Customer **customerPtr = customers->find(customerID);
+>   return customerPtr ? *customerPtr : nullptr;
+84,87c83,86
+<     BSTree<Movie *> *tree = getGenreTree(movieType);
+<     if (tree == nullptr) {
+<         return nullptr;
+<     }
+---
+>   BSTree<Movie *> *tree = getGenreTree(movieType);
+>   if (tree == nullptr) {
+>     return nullptr;
+>   }
+89,92c88,91
+<     // Use predicate search since search key format doesn't follow BST ordering
+<     Movie **result = tree->findByPredicate([&searchKey](Movie *const &movie) {
+<         return movie->getSearchKey() == searchKey;
+<     });
+---
+>   // Use predicate search since search key format doesn't follow BST ordering
+>   Movie **result = tree->findByPredicate([&searchKey](Movie *const &movie) {
+>     return movie->getSearchKey() == searchKey;
+>   });
+94c93
+<     return result ? *result : nullptr;
+---
+>   return result ? *result : nullptr;
+98,99c97,98
+<     // Display in order: Comedy, Drama, Classics
+<     const char genreOrder[] = {'F', 'D', 'C'};
+---
+>   // Display in order: Comedy, Drama, Classics
+>   const char genreOrder[] = {'F', 'D', 'C'};
+101,108c100,106
+<     for (char genre : genreOrder) {
+<         auto it = genreTrees.find(genre);
+<         if (it != genreTrees.end() && it->second) {
+<             it->second->inOrderTraversal([&out](Movie *const &movie) {
+<                 movie->display(out);
+<                 out << "\n";
+<             });
+<         }
+---
+>   for (char genre : genreOrder) {
+>     auto it = genreTrees.find(genre);
+>     if (it != genreTrees.end() && it->second) {
+>       it->second->inOrderTraversal([&out](Movie *const &movie) {
+>         movie->display(out);
+>         out << "\n";
+>       });
+109a108
+>   }
+114,117c113,116
+<     Customer *customer = findCustomer(customerID);
+<     if (customer == nullptr) {
+<         return false;
+<     }
+---
+>   Customer *customer = findCustomer(customerID);
+>   if (customer == nullptr) {
+>     return false;
+>   }
+119,120c118,119
+<     customer->displayHistory(out);
+<     return true;
+---
+>   customer->displayHistory(out);
+>   return true;
+124,125c123,124
+<     if (!movie)
+<         return false;
+---
+>   if (!movie)
+>     return false;
+127,133c126,131
+<     char movieType = movie->getMovieType();
+<     BSTree<Movie *> *tree = getGenreTree(movieType);
+<     if (tree == nullptr) {
+<         std::cerr << "No tree available for movie type " << movieType
+<                   << std::endl;
+<         return false;
+<     }
+---
+>   char movieType = movie->getMovieType();
+>   BSTree<Movie *> *tree = getGenreTree(movieType);
+>   if (tree == nullptr) {
+>     std::cerr << "No tree available for movie type " << movieType << std::endl;
+>     return false;
+>   }
+135,136c133,134
+<     // Get raw pointer for tree storage
+<     Movie *moviePtr = movie.get();
+---
+>   // Get raw pointer for tree storage
+>   Movie *moviePtr = movie.get();
+138,141c136,139
+<     // Define comparison function for this movie type
+<     auto compareFunc = [](Movie *const &a, Movie *const &b) {
+<         return a->getSortingKey() < b->getSortingKey();
+<     };
+---
+>   // Define comparison function for this movie type
+>   auto compareFunc = [](Movie *const &a, Movie *const &b) {
+>     return a->getSortingKey() < b->getSortingKey();
+>   };
+143,144c141,142
+<     // Insert into appropriate tree
+<     tree->insert(moviePtr, compareFunc);
+---
+>   // Insert into appropriate tree
+>   tree->insert(moviePtr, compareFunc);
+146,147c144,145
+<     // Transfer ownership to inventory vector
+<     movieInventory.push_back(std::move(movie));
+---
+>   // Transfer ownership to inventory vector
+>   movieInventory.push_back(std::move(movie));
+149c147
+<     return true;
+---
+>   return true;
+153,154c151,152
+<     if (!customer)
+<         return false;
+---
+>   if (!customer)
+>     return false;
+156,157c154,155
+<     const std::string &id = customer->getID();
+<     Customer *customerPtr = customer.get();
+---
+>   const std::string &id = customer->getID();
+>   Customer *customerPtr = customer.get();
+159,164c157,161
+<     // Insert into hash table
+<     if (!customers->insert(id, customerPtr)) {
+<         std::cerr << "Customer with ID " << id << " already exists"
+<                   << std::endl;
+<         return false;
+<     }
+---
+>   // Insert into hash table
+>   if (!customers->insert(id, customerPtr)) {
+>     std::cerr << "Customer with ID " << id << " already exists" << std::endl;
+>     return false;
+>   }
+166,167c163,164
+<     // Transfer ownership to customer list
+<     customerList.push_back(std::move(customer));
+---
+>   // Transfer ownership to customer list
+>   customerList.push_back(std::move(customer));
+169c166
+<     return true;
+---
+>   return true;
+173,178c170,174
+<     std::ifstream file(filename);
+<     if (!file.is_open()) {
+<         std::cerr << "Error: Could not open movie file " << filename
+<                   << std::endl;
+<         return 0;
+<     }
+---
+>   std::ifstream file(filename);
+>   if (!file.is_open()) {
+>     std::cerr << "Error: Could not open movie file " << filename << std::endl;
+>     return 0;
+>   }
+180,184c176,180
+<     std::string line;
+<     int count = 0;
+<     while (std::getline(file, line)) {
+<         if (line.empty())
+<             continue;
+---
+>   std::string line;
+>   int count = 0;
+>   while (std::getline(file, line)) {
+>     if (line.empty())
+>       continue;
+186,188c182,183
+<         if (processMovieLine(line)) {
+<             count++;
+<         }
+---
+>     if (processMovieLine(line)) {
+>       count++;
+189a185
+>   }
+191,192c187,188
+<     file.close();
+<     return count;
+---
+>   file.close();
+>   return count;
+196,201c192,197
+<     std::ifstream file(filename);
+<     if (!file.is_open()) {
+<         std::cerr << "Error: Could not open customer file " << filename
+<                   << std::endl;
+<         return 0;
+<     }
+---
+>   std::ifstream file(filename);
+>   if (!file.is_open()) {
+>     std::cerr << "Error: Could not open customer file " << filename
+>               << std::endl;
+>     return 0;
+>   }
+203,207c199,203
+<     std::string line;
+<     int count = 0;
+<     while (std::getline(file, line)) {
+<         if (line.empty())
+<             continue;
+---
+>   std::string line;
+>   int count = 0;
+>   while (std::getline(file, line)) {
+>     if (line.empty())
+>       continue;
+209,211c205,206
+<         if (processCustomerLine(line)) {
+<             count++;
+<         }
+---
+>     if (processCustomerLine(line)) {
+>       count++;
+212a208
+>   }
+214,215c210,211
+<     file.close();
+<     return count;
+---
+>   file.close();
+>   return count;
+219,223c215,219
+<     auto it = genreTrees.find(movieType);
+<     if (it != genreTrees.end()) {
+<         return it->second.get();
+<     }
+<     return nullptr;
+---
+>   auto it = genreTrees.find(movieType);
+>   if (it != genreTrees.end()) {
+>     return it->second.get();
+>   }
+>   return nullptr;
+227,231c223,227
+<     auto it = genreTrees.find(movieType);
+<     if (it != genreTrees.end()) {
+<         return it->second.get();
+<     }
+<     return nullptr;
+---
+>   auto it = genreTrees.find(movieType);
+>   if (it != genreTrees.end()) {
+>     return it->second.get();
+>   }
+>   return nullptr;
+235,236c231,232
+<     std::istringstream iss(line);
+<     char movieType;
+---
+>   std::istringstream iss(line);
+>   char movieType;
+238,241c234,237
+<     // Read movie type
+<     if (!(iss >> movieType)) {
+<         return false;
+<     }
+---
+>   // Read movie type
+>   if (!(iss >> movieType)) {
+>     return false;
+>   }
+243,245c239,241
+<     // Skip comma after movie type
+<     char comma;
+<     iss >> comma;
+---
+>   // Skip comma after movie type
+>   char comma;
+>   iss >> comma;
+247,253c243,249
+<     // Create movie using factory
+<     auto movie = MovieFactory::getInstance().createMovie(movieType);
+<     if (!movie) {
+<         std::cerr << "Unknown movie type: " << movieType
+<                   << ", discarding line: " << line.substr(2) << std::endl;
+<         return false;
+<     }
+---
+>   // Create movie using factory
+>   auto movie = MovieFactory::getInstance().createMovie(movieType);
+>   if (!movie) {
+>     std::cerr << "Unknown movie type: " << movieType
+>               << ", discarding line: " << line.substr(2) << std::endl;
+>     return false;
+>   }
+255,259c251,255
+<     // Parse movie data
+<     if (!movie->parseData(iss)) {
+<         std::cerr << "Failed to parse movie data: " << line << std::endl;
+<         return false;
+<     }
+---
+>   // Parse movie data
+>   if (!movie->parseData(iss)) {
+>     std::cerr << "Failed to parse movie data: " << line << std::endl;
+>     return false;
+>   }
+261,262c257,258
+<     // Add to inventory
+<     return addMovie(std::move(movie));
+---
+>   // Add to inventory
+>   return addMovie(std::move(movie));
+266,267c262,263
+<     std::istringstream iss(line);
+<     auto customer = Customer::parseFromStream(iss);
+---
+>   std::istringstream iss(line);
+>   auto customer = Customer::parseFromStream(iss);
+269,272c265,268
+<     if (!customer) {
+<         std::cerr << "Failed to parse customer data: " << line << std::endl;
+<         return false;
+<     }
+---
+>   if (!customer) {
+>     std::cerr << "Failed to parse customer data: " << line << std::endl;
+>     return false;
+>   }
+274c270
+<     return addCustomer(std::move(customer));
+---
+>   return addCustomer(std::move(customer));
+278,279c274,275
+<     std::istringstream iss(line);
+<     char commandType;
+---
+>   std::istringstream iss(line);
+>   char commandType;
+281,284c277,280
+<     // Read command type
+<     if (!(iss >> commandType)) {
+<         return false;
+<     }
+---
+>   // Read command type
+>   if (!(iss >> commandType)) {
+>     return false;
+>   }
+286,292c282,288
+<     // Create command using factory
+<     auto command = CommandFactory::getInstance().createCommand(commandType);
+<     if (!command) {
+<         std::cerr << "Unknown command type: " << commandType
+<                   << ", discarding line: " << std::endl;
+<         return false;
+<     }
+---
+>   // Create command using factory
+>   auto command = CommandFactory::getInstance().createCommand(commandType);
+>   if (!command) {
+>     std::cerr << "Unknown command type: " << commandType
+>               << ", discarding line: " << std::endl;
+>     return false;
+>   }
+294,298c290,294
+<     // Set command parameters
+<     if (!command->setParameters(iss)) {
+<         // Error already reported by setParameters
+<         return false;
+<     }
+---
+>   // Set command parameters
+>   if (!command->setParameters(iss)) {
+>     // Error already reported by setParameters
+>     return false;
+>   }
+300,301c296,297
+<     // Execute command
+<     return command->execute(*this);
+---
+>   // Execute command
+>   return command->execute(*this);
+=====================================================
+5. If there are any memory leaks, it should be in the output below
+=====================================================
+=====================================================
+6. Using valgrind to check for memory leaks
+   Check for "definitely lost" in the output below
+=====================================================
+WARNING: valgrind not available
+Sun Jun  8 01:50:14 PDT 2025
+=====================================================
+To create an output.txt file with all the output from this script
+Run the below command
+      ./create-output.sh > output.txt 2>&1 
+=====================================================
