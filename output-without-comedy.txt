@@ -137,37 +137,37 @@ Steven Spielberg, Schindler's List, 1993 (9) - Drama
 Debug: History for 1000 Mouse Minnie
 ==========================
 History for 1000 Mouse Minnie:
-Borrow Good Morning Vietnam Mouse Minnie Barry Levinson, Good Morning Vietnam, 1988 (9) - Drama
-Borrow The Philadelphia Story Mouse Minnie 1940 5, Katherine Hepburn, George Cukor, The Philadelphia Story (9) - Classics
-Borrow Good Will Hunting Mouse Minnie Gus Van Sant, Good Will Hunting, 2000 (9) - Drama
-Borrow The Philadelphia Story Mouse Minnie 1940 5, Cary Grant, George Cukor, The Philadelphia Story (9) - Classics
-Borrow Harold and Maude Mouse Minnie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+Borrow Good Morning Vietnam Mouse Minnie Good Morning Vietnam
+Borrow The Philadelphia Story Mouse Minnie The Philadelphia Story
+Borrow Good Will Hunting Mouse Minnie Good Will Hunting
+Borrow The Philadelphia Story Mouse Minnie The Philadelphia Story
+Borrow Harold and Maude Mouse Minnie Harold and Maude
 Debug: History for 1111 Mouse Mickey
 ==========================
 History for 1111 Mouse Mickey:
-Borrow A Clockwork Orange Mouse Mickey 1971 2, Malcolm McDowell, Stanley Kubrick, A Clockwork Orange (9) - Classics
-Borrow Harold and Maude Mouse Mickey 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
-Borrow The Maltese Falcon Mouse Mickey 1941 10, Humphrey Bogart, John Huston, The Maltese Falcon (9) - Classics
-Borrow Holiday Mouse Mickey 1938 9, Cary Grant, George Cukor, Holiday (9) - Classics
+Borrow A Clockwork Orange Mouse Mickey A Clockwork Orange
+Borrow Harold and Maude Mouse Mickey Harold and Maude
+Borrow The Maltese Falcon Mouse Mickey The Maltese Falcon
+Borrow Holiday Mouse Mickey Holiday
 Debug: History for 5000 Frog Freddie
 ==========================
 History for 5000 Frog Freddie:
-Borrow Harold and Maude Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
-Return Harold and Maude Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
-Borrow Harold and Maude Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
-Return Harold and Maude Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
-Borrow Harold and Maude Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
-Return Harold and Maude Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
-Borrow Harold and Maude Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+Borrow Harold and Maude Frog Freddie Harold and Maude
+Return Harold and Maude Frog Freddie Harold and Maude
+Borrow Harold and Maude Frog Freddie Harold and Maude
+Return Harold and Maude Frog Freddie Harold and Maude
+Borrow Harold and Maude Frog Freddie Harold and Maude
+Return Harold and Maude Frog Freddie Harold and Maude
+Borrow Harold and Maude Frog Freddie Harold and Maude
 Debug: History for 8000 Wacky Wally
 ==========================
 History for 8000 Wacky Wally:
-Borrow Harold and Maude Wacky Wally 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
-Borrow Harold and Maude Wacky Wally 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+Borrow Harold and Maude Wacky Wally Harold and Maude
+Borrow Harold and Maude Wacky Wally Harold and Maude
 Debug: History for 8888 Pig Porky
 ==========================
 History for 8888 Pig Porky:
-Borrow Silence of the Lambs Pig Porky Jonathan Demme, Silence of the Lambs, 1991 (9) - Drama
-Borrow Dogfight Pig Porky Nancy Savoca, Dogfight, 1991 (8) - Drama
-Borrow Harold and Maude Pig Porky 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
+Borrow Silence of the Lambs Pig Porky Silence of the Lambs
+Borrow Dogfight Pig Porky Dogfight
+Borrow Harold and Maude Pig Porky Harold and Maude
 Done!

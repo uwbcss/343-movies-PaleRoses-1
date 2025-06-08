@@ -119,8 +119,8 @@ Steven Spielberg, Schindler's List, 1993 (9) - Drama
 Debug: History for 1000 Mouse Minnie
 ==========================
 History for 1000 Mouse Minnie:
-Borrow Good Morning Vietnam Mouse Minnie Barry Levinson, Good Morning Vietnam, 1988 (9) - Drama
-Borrow Good Will Hunting Mouse Minnie Gus Van Sant, Good Will Hunting, 2000 (9) - Drama
+Borrow Good Morning Vietnam Mouse Minnie Good Morning Vietnam
+Borrow Good Will Hunting Mouse Minnie Good Will Hunting
 Debug: History for 1111 Mouse Mickey
 ==========================
 History for 1111 Mouse Mickey:
@@ -132,14 +132,14 @@ No history for Frog Freddie
 Debug: History for 8000 Wacky Wally
 ==========================
 History for 8000 Wacky Wally:
-Borrow You've Got Mail Wacky Wally You've Got Mail, 1998, Nora Ephron (9) - Comedy
-Return You've Got Mail Wacky Wally You've Got Mail, 1998, Nora Ephron (9) - Comedy
-Borrow National Lampoon's Animal House Wacky Wally National Lampoon's Animal House, 1978, John Landis (9) - Comedy
+Borrow You've Got Mail Wacky Wally You've Got Mail
+Return You've Got Mail Wacky Wally You've Got Mail
+Borrow National Lampoon's Animal House Wacky Wally National Lampoon's Animal House
 Debug: History for 8888 Pig Porky
 ==========================
 History for 8888 Pig Porky:
-Borrow Annie Hall Pig Porky Annie Hall, 1977, Woody Allen (9) - Comedy
-Borrow When Harry Met Sally Pig Porky When Harry Met Sally, 1989, Rob Reiner (9) - Comedy
-Borrow Silence of the Lambs Pig Porky Jonathan Demme, Silence of the Lambs, 1991 (9) - Drama
-Borrow Dogfight Pig Porky Nancy Savoca, Dogfight, 1991 (8) - Drama
+Borrow Annie Hall Pig Porky Annie Hall
+Borrow When Harry Met Sally Pig Porky When Harry Met Sally
+Borrow Silence of the Lambs Pig Porky Silence of the Lambs
+Borrow Dogfight Pig Porky Dogfight
 Done!
