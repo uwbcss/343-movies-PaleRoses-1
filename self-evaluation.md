@@ -139,4 +139,8 @@ Each script compiles and runs successfully with the excluded component generatin
 
 Q: Total points: ADD_ALL_POINTS (max 25 (+ 5 Bonus))
 
-30/25
+## 25 (base) +
+
+## 5 (bonus)
+
+**= 30**
