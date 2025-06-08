@@ -29,7 +29,15 @@ echo "1. If the section below is empty, the program compiles "
 echo "   without warnings with -Wall -Wextra flags"
 echo "====================================================="
 
-g++ -I./header -g -Wall -Wextra -Wno-sign-compare *.cpp src/*.cpp
+g++ -I./header -g -Wall -Wextra -Wno-sign-compare *.cpp \
+    src/classic.cpp \
+    src/comedy.cpp \
+    src/drama.cpp \
+    src/store.cpp \
+    src/inventory_command.cpp \
+    src/history_command.cpp \
+    src/borrow_command.cpp \
+    src/return_command.cpp
 
 echo "====================================================="
 echo "2. If the section below is empty or has the expected output "
@@ -45,7 +53,16 @@ echo "   (ignore warnings from system headers, such as \"13554 warnings generate
 echo "====================================================="
 
 if hash clang-tidy 2>/dev/null; then
-  clang-tidy *.cpp src/*.cpp -- -I./header
+  clang-tidy *.cpp \
+    src/classic.cpp \
+    src/comedy.cpp \
+    src/drama.cpp \
+    src/store.cpp \
+    src/inventory_command.cpp \
+    src/history_command.cpp \
+    src/borrow_command.cpp \
+    src/return_command.cpp \
+    -- -I./header
 else
   echo "WARNING: clang-tidy not available."
 fi
@@ -59,7 +76,16 @@ if hash clang-format 2>/dev/null; then
   # different LLVMs have slightly different configurations which can break things, so regenerate
   echo "# generated using: clang-format -style=llvm -dump-config > .clang-format" > .clang-format
   clang-format -style=llvm -dump-config >> .clang-format
-  for f in ./*.cpp src/*.cpp header/*.h; do
+  for f in ./*.cpp \
+    src/classic.cpp \
+    src/comedy.cpp \
+    src/drama.cpp \
+    src/store.cpp \
+    src/inventory_command.cpp \
+    src/history_command.cpp \
+    src/borrow_command.cpp \
+    src/return_command.cpp \
+    header/*.h; do
     echo "Running clang-format on $f"
     clang-format $f | diff $f -
   done
@@ -73,7 +99,15 @@ echo "====================================================="
 
 rm ./a.out 2>/dev/null
 
-g++ -I./header -fsanitize=address -fno-omit-frame-pointer -g *.cpp src/*.cpp
+g++ -I./header -fsanitize=address -fno-omit-frame-pointer -g *.cpp \
+    src/classic.cpp \
+    src/comedy.cpp \
+    src/drama.cpp \
+    src/store.cpp \
+    src/inventory_command.cpp \
+    src/history_command.cpp \
+    src/borrow_command.cpp \
+    src/return_command.cpp
 # Execute program
 $EXEC_PROGRAM > /dev/null 2> /dev/null
 
@@ -86,7 +120,15 @@ echo "====================================================="
 rm ./a.out 2>/dev/null
 
 if hash valgrind 2>/dev/null; then
-  g++ -I./header -g *.cpp src/*.cpp
+  g++ -I./header -g *.cpp \
+    src/classic.cpp \
+    src/comedy.cpp \
+    src/drama.cpp \
+    src/store.cpp \
+    src/inventory_command.cpp \
+    src/history_command.cpp \
+    src/borrow_command.cpp \
+    src/return_command.cpp
   # redirect program output to /dev/null will running valgrind
   valgrind --log-file="valgrind-output.txt" $EXEC_PROGRAM > /dev/null 2>/dev/null
   cat valgrind-output.txt
@@ -108,7 +150,16 @@ if hash gcov 2>/dev/null; then
   echo "Compiling with coverage instrumentation..."
   
   # Compile with coverage flags
-  if g++ -I./header -fprofile-arcs -ftest-coverage *.cpp src/*.cpp -o a.out 2>/dev/null; then
+  if g++ -I./header -fprofile-arcs -ftest-coverage *.cpp \
+    src/classic.cpp \
+    src/comedy.cpp \
+    src/drama.cpp \
+    src/store.cpp \
+    src/inventory_command.cpp \
+    src/history_command.cpp \
+    src/borrow_command.cpp \
+    src/return_command.cpp \
+    -o a.out 2>/dev/null; then
     
     # Execute program to generate coverage data
     echo "Generating coverage data..."
@@ -127,7 +178,9 @@ if hash gcov 2>/dev/null; then
     done
     
     # Process source directory files
-    for file in src/*.cpp; do
+    for file in src/classic.cpp src/comedy.cpp src/drama.cpp src/store.cpp \
+                src/inventory_command.cpp src/history_command.cpp \
+                src/borrow_command.cpp src/return_command.cpp; do
       if [ -f "$file" ]; then
         filename=$(basename "$file")
         echo -n "Processing $filename: "
@@ -140,7 +193,16 @@ if hash gcov 2>/dev/null; then
     echo "-------------------------"
     
     # Generate .gcov files to check for uncovered lines
-    gcov *.cpp src/*.cpp > /dev/null 2>&1
+    gcov *.cpp \
+      src/classic.cpp \
+      src/comedy.cpp \
+      src/drama.cpp \
+      src/store.cpp \
+      src/inventory_command.cpp \
+      src/history_command.cpp \
+      src/borrow_command.cpp \
+      src/return_command.cpp \
+      > /dev/null 2>&1
     
     # Check if any uncovered lines exist
     uncovered_found=false

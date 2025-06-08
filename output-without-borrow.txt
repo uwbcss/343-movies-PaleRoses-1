@@ -1,0 +1,173 @@
+=====================================================
+Compiling WITHOUT Borrow command support
+=====================================================
+=====================================================
+Compilation successful - running program
+Borrow commands will show as 'Unknown command type: B'
+=====================================================
+Unknown movie type: Z, discarding line:  10, Hal Ashby, Harold and Maude, Bud Cort 3 1971
+Unknown movie type: Z, discarding line:  10, Frank Capra, It's a Wonderful Life, James Steward 11 1946
+==========================
+Annie Hall, 1977, Woody Allen (10) - Comedy
+Fargo, 1996, Joel Coen (10) - Comedy
+National Lampoon's Animal House, 1978, John Landis (10) - Comedy
+Pirates of the Caribbean, 2000, Different Years (10) - Comedy
+Pirates of the Caribbean, 2003, Gore Verbinski (10) - Comedy
+Sleepless in Seattle, 1993, Nora Ephron (10) - Comedy
+When Harry Met Sally, 1989, Rob Reiner (10) - Comedy
+You've Got Mail, 1998, Nora Ephron (10) - Comedy
+Barry Levinson, Good Morning Vietnam, 1988 (10) - Drama
+Barry Levinson, Same Director Good Morning Vietnam, 1988 (10) - Drama
+Clint Eastwood, Unforgiven, 1992 (10) - Drama
+Gus Van Sant, Good Will Hunting, 2000 (10) - Drama
+Jonathan Demme, Silence of the Lambs, 1991 (10) - Drama
+Nancy Savoca, Dogfight, 1991 (10) - Drama
+Phillippe De Broca, King of Hearts, 1967 (10) - Drama
+Steven Spielberg, Schindler's List, 1993 (10) - Drama
+1938 9, Cary Grant, George Cukor, Holiday (10) - Classics
+1938 9, Katherine Hepburn, George Cukor, Holiday (10) - Classics
+1939 2, Clark Gable, Victor Fleming, Gone With the Wind (10) - Classics
+1939 2, Vivien Leigh, Victor Fleming, Gone With the Wind (10) - Classics
+1939 7, Judy Garland, Victor Fleming, The Wizard of Oz (10) - Classics
+1940 5, Cary Grant, George Cukor, The Philadelphia Story (10) - Classics
+1940 5, Katherine Hepburn, George Cukor, The Philadelphia Story (10) - Classics
+1941 10, Humphrey Bogart, John Huston, The Maltese Falcon (10) - Classics
+1942 8, Humphrey Bogart, Michael Curtiz, Casablanca (10) - Classics
+1942 8, Ingrid Bergman, Michael Curtiz, Casablanca (10) - Classics
+1946 11, Donna Reed, Frank Capra, It's a Wonderful Life (10) - Classics
+1946 11, James Steward, Frank Capra, It's a Wonderful Life (10) - Classics
+1971 2, Malcolm McDowell, Stanley Kubrick, A Clockwork Orange (10) - Classics
+1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (10) - Classics
+Debug: History for 1000 Mouse Minnie
+==========================
+History for 1000 Mouse Minnie:
+No history for Mouse Minnie
+Debug: History for 5000 Frog Freddie
+==========================
+History for 5000 Frog Freddie:
+No history for Frog Freddie
+Debug: History for 8000 Wacky Wally
+==========================
+History for 8000 Wacky Wally:
+No history for Wacky Wally
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Debug: Return 5000 Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (10) - Classics
+==========================
+Frog Freddie does not have Harold and Maude checked out
+==========================
+Failed to execute command: Return Frog Freddie Harold and Maude
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Debug: Return 5000 Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (10) - Classics
+==========================
+Frog Freddie does not have Harold and Maude checked out
+==========================
+Failed to execute command: Return Frog Freddie Harold and Maude
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Debug: Return 4444 Moose Bullwinkle 1971 2, Malcolm McDowell, Stanley Kubrick, A Clockwork Orange (10) - Classics
+==========================
+Moose Bullwinkle does not have A Clockwork Orange checked out
+==========================
+Failed to execute command: Return Moose Bullwinkle A Clockwork Orange
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Debug: Return 8000 Wacky Wally You've Got Mail, 1998, Nora Ephron (10) - Comedy
+==========================
+Wacky Wally does not have You've Got Mail checked out
+==========================
+Failed to execute command: Return Wacky Wally You've Got Mail
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: X, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Debug: Return 5000 Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (10) - Classics
+==========================
+Frog Freddie does not have Harold and Maude checked out
+==========================
+Failed to execute command: Return Frog Freddie Harold and Maude
+Unknown command type: Z, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+Unknown command type: B, discarding line: 
+==========================
+Annie Hall, 1977, Woody Allen (10) - Comedy
+Fargo, 1996, Joel Coen (10) - Comedy
+National Lampoon's Animal House, 1978, John Landis (10) - Comedy
+Pirates of the Caribbean, 2000, Different Years (10) - Comedy
+Pirates of the Caribbean, 2003, Gore Verbinski (10) - Comedy
+Sleepless in Seattle, 1993, Nora Ephron (10) - Comedy
+When Harry Met Sally, 1989, Rob Reiner (10) - Comedy
+You've Got Mail, 1998, Nora Ephron (10) - Comedy
+Barry Levinson, Good Morning Vietnam, 1988 (10) - Drama
+Barry Levinson, Same Director Good Morning Vietnam, 1988 (10) - Drama
+Clint Eastwood, Unforgiven, 1992 (10) - Drama
+Gus Van Sant, Good Will Hunting, 2000 (10) - Drama
+Jonathan Demme, Silence of the Lambs, 1991 (10) - Drama
+Nancy Savoca, Dogfight, 1991 (10) - Drama
+Phillippe De Broca, King of Hearts, 1967 (10) - Drama
+Steven Spielberg, Schindler's List, 1993 (10) - Drama
+1938 9, Cary Grant, George Cukor, Holiday (10) - Classics
+1938 9, Katherine Hepburn, George Cukor, Holiday (10) - Classics
+1939 2, Clark Gable, Victor Fleming, Gone With the Wind (10) - Classics
+1939 2, Vivien Leigh, Victor Fleming, Gone With the Wind (10) - Classics
+1939 7, Judy Garland, Victor Fleming, The Wizard of Oz (10) - Classics
+1940 5, Cary Grant, George Cukor, The Philadelphia Story (10) - Classics
+1940 5, Katherine Hepburn, George Cukor, The Philadelphia Story (10) - Classics
+1941 10, Humphrey Bogart, John Huston, The Maltese Falcon (10) - Classics
+1942 8, Humphrey Bogart, Michael Curtiz, Casablanca (10) - Classics
+1942 8, Ingrid Bergman, Michael Curtiz, Casablanca (10) - Classics
+1946 11, Donna Reed, Frank Capra, It's a Wonderful Life (10) - Classics
+1946 11, James Steward, Frank Capra, It's a Wonderful Life (10) - Classics
+1971 2, Malcolm McDowell, Stanley Kubrick, A Clockwork Orange (10) - Classics
+1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (10) - Classics
+Debug: History for 1000 Mouse Minnie
+==========================
+History for 1000 Mouse Minnie:
+No history for Mouse Minnie
+Debug: History for 1111 Mouse Mickey
+==========================
+History for 1111 Mouse Mickey:
+No history for Mouse Mickey
+Debug: History for 5000 Frog Freddie
+==========================
+History for 5000 Frog Freddie:
+No history for Frog Freddie
+Debug: History for 8000 Wacky Wally
+==========================
+History for 8000 Wacky Wally:
+No history for Wacky Wally
+Debug: History for 8888 Pig Porky
+==========================
+History for 8888 Pig Porky:
+No history for Pig Porky
+Done!

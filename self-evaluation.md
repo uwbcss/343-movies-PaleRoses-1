@@ -2,6 +2,8 @@
 
 ## Name(s):
 
+Rosalia Fialkova
+
 Out of 25 points. Use output.txt created using
 `./create-output.sh > output.txt 2>&1` for guidance.
 
@@ -62,52 +64,79 @@ An attempt was made to adjust create-out.sh to provide another segment, that rev
 - -2 for each function that is never called when testing
 - Check under _7. Tests have full code coverage_ paying attention to _The lines below were never executed_
 
-Q: Are all functions in .h and .cpp file documents (min -3): 16 files!
-
-All documented, each of the individual functions.
+Q: Are all functions in .h and .cpp file documents (min -3): Yes, all, see below.
 
 - -1 for each function not documented
 
 ## Location of error message or functionality
 
 State the file and function where the information can be found
+USED markdown format to make this legible!!
+**Invalid Command Code**  
+`src/store.cpp`, `processCommandLine()` → outputs "Unknown command type: X, discarding line:"
 
-invalid command code: TODO(student)
+**Invalid Movie Type**  
+`src/store.cpp`, `processMovieLine()` → outputs "Unknown movie type: Z, discarding line:"
 
-invalid movie type: TODO(student)
+**Invalid Customer ID**  
+`src/commands.cpp`, `BorrowCommand::setParameters()` and `ReturnCommand::setParameters()` → outputs "Invalid customer ID XXXX, discarding line:"
 
-invalid customer ID: TODO(student)
+**Invalid Movie**  
+`src/commands.cpp`, `BorrowCommand::execute()` and `ReturnCommand::execute()` → outputs "Invalid movie for customer Name, discarding line:"
 
-invalid movie: TODO(student)
+**Factory Classes**  
+`header/factory.h` → contains `MovieFactory` and `CommandFactory` singleton classes
 
-factory classes: TODO(student)
+**Hashtable**  
+`header/hashtable.h` → custom hash table used in `Store` class to store customers for O(1) lookup by 4-digit ID
 
-hashtable: TODO(student) (explain what the hashtable is used for)
+**Container Used for Comedy Movies**  
+`BSTree<Movie*>` stored in `Store::genreTrees['F']`
 
-container used for comedy movies: TODO(student)
+**Function for Sorting Comedy Movies**  
+`Comedy::operator<()` in `src/comedy.cpp`
 
-function for sorting comedy movies: TODO(student)
+**Function Where Comedy Movies Are Sorted**  
+`Store::addMovie()` in `src/store.cpp` when calling `tree->insert()`
 
-function where comedy movies are sorted: TODO(student)
+**Functions Called When Retrieving a Comedy Movie Based on Title and Year**  
+`Store::findMovie()` → `BSTree::findByPredicate()` → `Comedy::getSearchKey()`
 
-functions called when retrieving a comedy movie based on title and year: TODO(student)
+**Functions Called for Retrieving and Printing Customer History**  
+`HistoryCommand::execute()` → `Customer::displayHistory()`
 
-functions called for retrieving and printing customer history: TODO(student)
+**Container Used for Customer History**  
+`std::vector<Transaction>` in `Customer` class (`header/customer.h`)
 
-container used for customer history: TODO(student)
+**Functions Called When Borrowing a Movie**  
+`BorrowCommand::execute()` → `Movie::borrowMovie()` → `Customer::addTransaction()`
 
-functions called when borrowing a movie: TODO(student)
+**Explain Borrowing a Movie That Does Not Exist**  
+`BorrowCommand::execute()` checks if `findMovie()` returns nullptr, then outputs error message
 
-explain borrowing a movie that does not exist: TODO(student)
+**Explain Borrowing a Movie That Has 0 Stock**  
+`Movie::borrowMovie()` returns false when stock <= 0, `BorrowCommand::execute()` outputs "could NOT borrow Title, out of stock:"
 
-explain borrowing a movie that has 0 stock: TODO(student)
+**Explain Returning a Movie That Customer Has Not Checked Out**  
+`ReturnCommand::execute()` calls `Customer::hasMovieBorrowed()` which returns false if not borrowed, outputs error message
 
-explain returning a movie that customer has not checked out: TODO(student)
-
-any static_cast or dynamic_cast used: TODO(student)
+**Any Static_cast or Dynamic_cast Used**  
+None!
 
 ## Bonus +5
 
-Are there multiple files, of the form runit-without-XXX, where the same set of files will compile and run excluding some of the commands or genres? TODO(student)
+Are there multiple files, of the form runit-without-XXX, where the same set of files will compile and run excluding some of the commands or genres?
+
+**Yes.** Five runit-without-XXX scripts demonstrate this idea.
+
+- **runit-without-classic.sh** - Excludes Classic movie support
+- **runit-without-comedy.sh** - Excludes Comedy movie support
+- **runit-without-borrow.sh** - Excludes Borrow command
+- **runit-without-return.sh** - Excludes Return command
+- **runit-without-history.sh** - Excludes History command
+
+Each script compiles and runs successfully with the excluded component generating appropriate "Unknown type" errors while all other functionality remains operational.
 
 Q: Total points: ADD_ALL_POINTS (max 25 (+ 5 Bonus))
+
+30/25

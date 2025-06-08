@@ -1,25 +1,21 @@
-Sun Jun  8 12:41:45 PDT 2025
-Darwin Rosalias-MacBook-Pro.local 24.5.0 Darwin Kernel Version 24.5.0: Tue Apr 22 19:53:27 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T6041 arm64
-uid=501(bluerose) gid=20(staff) groups=20(staff),12(everyone),61(localaccounts),79(_appserverusr),80(admin),81(_appserveradm),33(_appstore),98(_lpadmin),100(_lpoperator),204(_developer),250(_analyticsusers),395(com.apple.access_ftp),398(com.apple.access_screensharing),399(com.apple.access_ssh),400(com.apple.access_remote_ae),701(com.apple.sharepoint.group.1)
 =====================================================
-1. If the section below is empty, the program compiles 
-   without warnings with -Wall -Wextra flags
+Compiling WITHOUT Comedy movie support
 =====================================================
 =====================================================
-2. If the section below is empty or has the expected output 
-    the program puns and produces correct output
+Compilation successful - running program
+Comedy movies will show as 'Unknown movie type: F'
 =====================================================
+Unknown movie type: F, discarding line:  10, Nora Ephron, Sleepless in Seattle, 1993
+Unknown movie type: F, discarding line:  10, Woody Allen, Annie Hall, 1977
+Unknown movie type: F, discarding line:  10, Rob Reiner, When Harry Met Sally, 1989
+Unknown movie type: F, discarding line:  10, Gore Verbinski, Pirates of the Caribbean, 2003
+Unknown movie type: F, discarding line:  10, Different Years, Pirates of the Caribbean, 2000
+Unknown movie type: F, discarding line:  10, Joel Coen, Fargo, 1996
 Unknown movie type: Z, discarding line:  10, Hal Ashby, Harold and Maude, Bud Cort 3 1971
 Unknown movie type: Z, discarding line:  10, Frank Capra, It's a Wonderful Life, James Steward 11 1946
+Unknown movie type: F, discarding line:  10, John Landis, National Lampoon's Animal House, 1978
+Unknown movie type: F, discarding line:  10, Nora Ephron, You've Got Mail, 1998
 ==========================
-Annie Hall, 1977, Woody Allen (10) - Comedy
-Fargo, 1996, Joel Coen (10) - Comedy
-National Lampoon's Animal House, 1978, John Landis (10) - Comedy
-Pirates of the Caribbean, 2000, Different Years (10) - Comedy
-Pirates of the Caribbean, 2003, Gore Verbinski (10) - Comedy
-Sleepless in Seattle, 1993, Nora Ephron (10) - Comedy
-When Harry Met Sally, 1989, Rob Reiner (10) - Comedy
-You've Got Mail, 1998, Nora Ephron (10) - Comedy
 Barry Levinson, Good Morning Vietnam, 1988 (10) - Drama
 Barry Levinson, Same Director Good Morning Vietnam, 1988 (10) - Drama
 Clint Eastwood, Unforgiven, 1992 (10) - Drama
@@ -54,14 +50,14 @@ Debug: History for 8000 Wacky Wally
 ==========================
 History for 8000 Wacky Wally:
 No history for Wacky Wally
-Debug: Borrow 8000 Wacky Wally You've Got Mail, 1998, Nora Ephron (10) - Comedy
+Invalid movie type F, discarding line:  2 1971 Malcolm McDowell
 Debug: Borrow 1000 Mouse Minnie Barry Levinson, Good Morning Vietnam, 1988 (10) - Drama
 Debug: Borrow 1000 Mouse Minnie 1940 5, Katherine Hepburn, George Cukor, The Philadelphia Story (10) - Classics
-Debug: Borrow 2000 Duck Donald Sleepless in Seattle, 1993, Nora Ephron (10) - Comedy
+Invalid movie type F, discarding line:  2 1971 Malcolm McDowell
 Debug: Borrow 4444 Moose Bullwinkle 1971 2, Malcolm McDowell, Stanley Kubrick, A Clockwork Orange (10) - Classics
 Debug: Borrow 5000 Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (10) - Classics
 Debug: Return 5000 Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (9) - Classics
-Debug: Borrow 8888 Pig Porky Annie Hall, 1977, Woody Allen (10) - Comedy
+Invalid movie type F, discarding line:  2 1971 Malcolm McDowell
 Debug: Borrow 1111 Mouse Mickey 1971 2, Malcolm McDowell, Stanley Kubrick, A Clockwork Orange (9) - Classics
 Invalid movie type Z, discarding line:  2 1971 Malcolm McDowell
 Debug: Borrow 5000 Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (10) - Classics
@@ -72,10 +68,10 @@ Debug: Return 4444 Moose Bullwinkle 1971 2, Malcolm McDowell, Stanley Kubrick, A
 Debug: Borrow 1000 Mouse Minnie 1940 5, Cary Grant, George Cukor, The Philadelphia Story (10) - Classics
 Debug: Borrow 1111 Mouse Mickey 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (10) - Classics
 Debug: Borrow 1000 Mouse Minnie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (9) - Classics
-Debug: Borrow 8888 Pig Porky When Harry Met Sally, 1989, Rob Reiner (10) - Comedy
+Invalid movie type F, discarding line:  2 1971 Malcolm McDowell
 Debug: Borrow 8888 Pig Porky Jonathan Demme, Silence of the Lambs, 1991 (10) - Drama
-Debug: Return 8000 Wacky Wally You've Got Mail, 1998, Nora Ephron (9) - Comedy
-Debug: Borrow 9999 Duck Daffy You've Got Mail, 1998, Nora Ephron (10) - Comedy
+Invalid movie type F, discarding line:  2 1971 Malcolm McDowell
+Invalid movie type F, discarding line:  2 1971 Malcolm McDowell
 Debug: Borrow 8000 Wacky Wally 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (8) - Classics
 Debug: Borrow 1111 Mouse Mickey 1941 10, Humphrey Bogart, John Huston, The Maltese Falcon (10) - Classics
 Debug: Borrow 8000 Wacky Wally 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (7) - Classics
@@ -87,15 +83,15 @@ Debug: Borrow 7777 Spider Sammy Steven Spielberg, Schindler's List, 1993 (10) - 
 Debug: Return 5000 Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (5) - Classics
 Unknown command type: Z, discarding line: 
 Debug: Borrow 5000 Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (6) - Classics
-Debug: Borrow 8000 Wacky Wally National Lampoon's Animal House, 1978, John Landis (10) - Comedy
+Invalid movie type F, discarding line:  2 1971 Malcolm McDowell
 Debug: Borrow 8888 Pig Porky 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (5) - Classics
 Debug: Borrow 7777 Spider Sammy 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (4) - Classics
 Debug: Borrow 2000 Duck Donald 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (3) - Classics
 Debug: Borrow 2000 Duck Donald Nancy Savoca, Dogfight, 1991 (9) - Drama
 Debug: Borrow 9000 Lizard Larry Clint Eastwood, Unforgiven, 1992 (10) - Drama
-Debug: Borrow 9000 Lizard Larry Fargo, 1996, Joel Coen (10) - Comedy
+Invalid movie type F, discarding line:  2 1971 Malcolm McDowell
 Invalid customer ID 1234, discarding line:  D C 2 1971 Malcolm McDowell
-Invalid movie  for customer Mouse Minnie, discarding line: 
+Invalid movie type F, discarding line:  2 1971 Malcolm McDowell
 Invalid media type Z, discarding line:  F Fargo, 1996
 Debug: Borrow 2000 Duck Donald 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (2) - Classics
 Debug: Borrow 9000 Lizard Larry 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (1) - Classics
@@ -116,14 +112,6 @@ Spider Sammy could NOT borrow Harold and Maude, out of stock:
 Failed to execute command: Borrow Spider Sammy Harold and Maude
 Invalid movie  for customer Mouse Minnie, discarding line: 
 ==========================
-Annie Hall, 1977, Woody Allen (9) - Comedy
-Fargo, 1996, Joel Coen (9) - Comedy
-National Lampoon's Animal House, 1978, John Landis (9) - Comedy
-Pirates of the Caribbean, 2000, Different Years (10) - Comedy
-Pirates of the Caribbean, 2003, Gore Verbinski (10) - Comedy
-Sleepless in Seattle, 1993, Nora Ephron (9) - Comedy
-When Harry Met Sally, 1989, Rob Reiner (9) - Comedy
-You've Got Mail, 1998, Nora Ephron (9) - Comedy
 Barry Levinson, Good Morning Vietnam, 1988 (9) - Drama
 Barry Levinson, Same Director Good Morning Vietnam, 1988 (10) - Drama
 Clint Eastwood, Unforgiven, 1992 (9) - Drama
@@ -174,95 +162,12 @@ Borrow Harold and Maude Frog Freddie 1971 3, Ruth Gordon, Hal Ashby, Harold and 
 Debug: History for 8000 Wacky Wally
 ==========================
 History for 8000 Wacky Wally:
-Borrow You've Got Mail Wacky Wally You've Got Mail, 1998, Nora Ephron (9) - Comedy
-Return You've Got Mail Wacky Wally You've Got Mail, 1998, Nora Ephron (9) - Comedy
 Borrow Harold and Maude Wacky Wally 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
 Borrow Harold and Maude Wacky Wally 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
-Borrow National Lampoon's Animal House Wacky Wally National Lampoon's Animal House, 1978, John Landis (9) - Comedy
 Debug: History for 8888 Pig Porky
 ==========================
 History for 8888 Pig Porky:
-Borrow Annie Hall Pig Porky Annie Hall, 1977, Woody Allen (9) - Comedy
-Borrow When Harry Met Sally Pig Porky When Harry Met Sally, 1989, Rob Reiner (9) - Comedy
 Borrow Silence of the Lambs Pig Porky Jonathan Demme, Silence of the Lambs, 1991 (9) - Drama
 Borrow Dogfight Pig Porky Nancy Savoca, Dogfight, 1991 (8) - Drama
 Borrow Harold and Maude Pig Porky 1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - Classics
 Done!
-=====================================================
-3. If the section below is empty, then there are no clang-tidy warnings 
-   (ignore warnings from system headers, such as "13554 warnings generated.")
-=====================================================
-[1/10] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/main.cpp.
-31966 warnings generated.
-[2/10] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/store_test.cpp.
-65894 warnings generated.
-[3/10] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/src/classic.cpp.
-96651 warnings generated.
-[4/10] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/src/comedy.cpp.
-127410 warnings generated.
-[5/10] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/src/drama.cpp.
-157881 warnings generated.
-[6/10] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/src/store.cpp.
-190960 warnings generated.
-[7/10] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/src/inventory_command.cpp.
-223005 warnings generated.
-[8/10] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/src/history_command.cpp.
-255050 warnings generated.
-[9/10] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/src/borrow_command.cpp.
-287322 warnings generated.
-[10/10] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/src/return_command.cpp.
-319594 warnings generated.
-Suppressed 319594 warnings (319594 in non-user code).
-Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
-=====================================================
-4. If the section below is empty, clang-format does not find any formatting issues
-   You can fix formatting errors using "clang-format -i <filename>" on command line
-=====================================================
-Running clang-format on ./main.cpp
-Running clang-format on ./store_test.cpp
-Running clang-format on src/classic.cpp
-Running clang-format on src/comedy.cpp
-Running clang-format on src/drama.cpp
-Running clang-format on src/store.cpp
-Running clang-format on src/inventory_command.cpp
-Running clang-format on src/history_command.cpp
-Running clang-format on src/borrow_command.cpp
-Running clang-format on src/return_command.cpp
-Running clang-format on header/bstree.h
-Running clang-format on header/classic.h
-Running clang-format on header/comedy.h
-Running clang-format on header/command.h
-Running clang-format on header/commands.h
-Running clang-format on header/customer.h
-Running clang-format on header/drama.h
-Running clang-format on header/factory.h
-Running clang-format on header/hashtable.h
-Running clang-format on header/movie.h
-Running clang-format on header/store.h
-=====================================================
-5. If there are any memory leaks, it should be in the output below
-=====================================================
-=====================================================
-6. Using valgrind to check for memory leaks
-   Check for "definitely lost" in the output below
-=====================================================
-WARNING: valgrind not available
-=====================================================
-  ✨🌙✨    7. Tests have full code coverage ✨🌙✨
-  ✨🌙✨ The lines below were never executed ✨🌙✨
-=====================================================
-Compiling with coverage instrumentation...
-Generating coverage data...
-
-COVERAGE SUMMARY:
------------------
-Processing main.cpp: Processing store_test.cpp: Processing classic.cpp: Processing comedy.cpp: Processing drama.cpp: Processing store.cpp: Processing inventory_command.cpp: Processing history_command.cpp: Processing borrow_command.cpp: Processing return_command.cpp: 
-UNCOVERED CODE DETECTION:
--------------------------
-✨ All executable lines have been covered by tests! ✨
-Sun Jun  8 12:42:10 PDT 2025
-=====================================================
-To create an output.txt file with all the output from this script
-Run the below command
-      ./create-output.sh > output.txt 2>&1 
-=====================================================

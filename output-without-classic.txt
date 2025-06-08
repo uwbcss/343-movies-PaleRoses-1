@@ -1,0 +1,145 @@
+=====================================================
+Compiling WITHOUT Classic movie support
+=====================================================
+=====================================================
+Compilation successful - running program
+Classic movies will show as 'Unknown movie type: C'
+=====================================================
+Unknown movie type: C, discarding line:  10, Michael Curtiz, Casablanca, Ingrid Bergman 8 1942
+Unknown movie type: C, discarding line:  10, Michael Curtiz, Casablanca, Humphrey Bogart 8 1942
+Unknown movie type: C, discarding line:  10, Victor Fleming, The Wizard of Oz, Judy Garland 7 1939
+Unknown movie type: C, discarding line:  10, Hal Ashby, Harold and Maude, Ruth Gordon 3 1971
+Unknown movie type: Z, discarding line:  10, Hal Ashby, Harold and Maude, Bud Cort 3 1971
+Unknown movie type: C, discarding line:  10, George Cukor, Holiday, Katherine Hepburn 9 1938
+Unknown movie type: C, discarding line:  10, George Cukor, Holiday, Cary Grant 9 1938
+Unknown movie type: C, discarding line:  10, Victor Fleming, Gone With the Wind, Vivien Leigh 2 1939
+Unknown movie type: C, discarding line:  10, Victor Fleming, Gone With the Wind, Clark Gable 2 1939
+Unknown movie type: C, discarding line:  10, George Cukor, The Philadelphia Story, Katherine Hepburn 5 1940
+Unknown movie type: C, discarding line:  10, George Cukor, The Philadelphia Story, Cary Grant 5 1940
+Unknown movie type: C, discarding line:  10, John Huston, The Maltese Falcon, Humphrey Bogart 10 1941
+Unknown movie type: Z, discarding line:  10, Frank Capra, It's a Wonderful Life, James Steward 11 1946
+Unknown movie type: C, discarding line:  10, Frank Capra, It's a Wonderful Life, James Steward 11 1946
+Unknown movie type: C, discarding line:  10, Frank Capra, It's a Wonderful Life, Donna Reed 11 1946
+Unknown movie type: C, discarding line:  10, Stanley Kubrick, A Clockwork Orange, Malcolm McDowell 2 1971
+==========================
+Annie Hall, 1977, Woody Allen (10) - Comedy
+Fargo, 1996, Joel Coen (10) - Comedy
+National Lampoon's Animal House, 1978, John Landis (10) - Comedy
+Pirates of the Caribbean, 2000, Different Years (10) - Comedy
+Pirates of the Caribbean, 2003, Gore Verbinski (10) - Comedy
+Sleepless in Seattle, 1993, Nora Ephron (10) - Comedy
+When Harry Met Sally, 1989, Rob Reiner (10) - Comedy
+You've Got Mail, 1998, Nora Ephron (10) - Comedy
+Barry Levinson, Good Morning Vietnam, 1988 (10) - Drama
+Barry Levinson, Same Director Good Morning Vietnam, 1988 (10) - Drama
+Clint Eastwood, Unforgiven, 1992 (10) - Drama
+Gus Van Sant, Good Will Hunting, 2000 (10) - Drama
+Jonathan Demme, Silence of the Lambs, 1991 (10) - Drama
+Nancy Savoca, Dogfight, 1991 (10) - Drama
+Phillippe De Broca, King of Hearts, 1967 (10) - Drama
+Steven Spielberg, Schindler's List, 1993 (10) - Drama
+Debug: History for 1000 Mouse Minnie
+==========================
+History for 1000 Mouse Minnie:
+No history for Mouse Minnie
+Debug: History for 5000 Frog Freddie
+==========================
+History for 5000 Frog Freddie:
+No history for Frog Freddie
+Debug: History for 8000 Wacky Wally
+==========================
+History for 8000 Wacky Wally:
+No history for Wacky Wally
+Debug: Borrow 8000 Wacky Wally You've Got Mail, 1998, Nora Ephron (10) - Comedy
+Debug: Borrow 1000 Mouse Minnie Barry Levinson, Good Morning Vietnam, 1988 (10) - Drama
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Debug: Borrow 2000 Duck Donald Sleepless in Seattle, 1993, Nora Ephron (10) - Comedy
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Debug: Borrow 8888 Pig Porky Annie Hall, 1977, Woody Allen (10) - Comedy
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Invalid movie type Z, discarding line:  2 1971 Malcolm McDowell
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Debug: Borrow 1000 Mouse Minnie Gus Van Sant, Good Will Hunting, 2000 (10) - Drama
+Debug: Borrow 2000 Duck Donald Phillippe De Broca, King of Hearts, 1967 (10) - Drama
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Debug: Borrow 8888 Pig Porky When Harry Met Sally, 1989, Rob Reiner (10) - Comedy
+Debug: Borrow 8888 Pig Porky Jonathan Demme, Silence of the Lambs, 1991 (10) - Drama
+Debug: Return 8000 Wacky Wally You've Got Mail, 1998, Nora Ephron (9) - Comedy
+Debug: Borrow 9999 Duck Daffy You've Got Mail, 1998, Nora Ephron (10) - Comedy
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Unknown command type: X, discarding line: 
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Debug: Borrow 8888 Pig Porky Nancy Savoca, Dogfight, 1991 (10) - Drama
+Debug: Borrow 7777 Spider Sammy Steven Spielberg, Schindler's List, 1993 (10) - Drama
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Unknown command type: Z, discarding line: 
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Debug: Borrow 8000 Wacky Wally National Lampoon's Animal House, 1978, John Landis (10) - Comedy
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Debug: Borrow 2000 Duck Donald Nancy Savoca, Dogfight, 1991 (9) - Drama
+Debug: Borrow 9000 Lizard Larry Clint Eastwood, Unforgiven, 1992 (10) - Drama
+Debug: Borrow 9000 Lizard Larry Fargo, 1996, Joel Coen (10) - Comedy
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Invalid movie  for customer Mouse Minnie, discarding line: 
+Invalid media type Z, discarding line:  F Fargo, 1996
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Invalid movie type C, discarding line:  2 1971 Malcolm McDowell
+Invalid movie  for customer Mouse Minnie, discarding line: 
+==========================
+Annie Hall, 1977, Woody Allen (9) - Comedy
+Fargo, 1996, Joel Coen (9) - Comedy
+National Lampoon's Animal House, 1978, John Landis (9) - Comedy
+Pirates of the Caribbean, 2000, Different Years (10) - Comedy
+Pirates of the Caribbean, 2003, Gore Verbinski (10) - Comedy
+Sleepless in Seattle, 1993, Nora Ephron (9) - Comedy
+When Harry Met Sally, 1989, Rob Reiner (9) - Comedy
+You've Got Mail, 1998, Nora Ephron (9) - Comedy
+Barry Levinson, Good Morning Vietnam, 1988 (9) - Drama
+Barry Levinson, Same Director Good Morning Vietnam, 1988 (10) - Drama
+Clint Eastwood, Unforgiven, 1992 (9) - Drama
+Gus Van Sant, Good Will Hunting, 2000 (9) - Drama
+Jonathan Demme, Silence of the Lambs, 1991 (9) - Drama
+Nancy Savoca, Dogfight, 1991 (8) - Drama
+Phillippe De Broca, King of Hearts, 1967 (9) - Drama
+Steven Spielberg, Schindler's List, 1993 (9) - Drama
+Debug: History for 1000 Mouse Minnie
+==========================
+History for 1000 Mouse Minnie:
+Borrow Good Morning Vietnam Mouse Minnie Barry Levinson, Good Morning Vietnam, 1988 (9) - Drama
+Borrow Good Will Hunting Mouse Minnie Gus Van Sant, Good Will Hunting, 2000 (9) - Drama
+Debug: History for 1111 Mouse Mickey
+==========================
+History for 1111 Mouse Mickey:
+No history for Mouse Mickey
+Debug: History for 5000 Frog Freddie
+==========================
+History for 5000 Frog Freddie:
+No history for Frog Freddie
+Debug: History for 8000 Wacky Wally
+==========================
+History for 8000 Wacky Wally:
+Borrow You've Got Mail Wacky Wally You've Got Mail, 1998, Nora Ephron (9) - Comedy
+Return You've Got Mail Wacky Wally You've Got Mail, 1998, Nora Ephron (9) - Comedy
+Borrow National Lampoon's Animal House Wacky Wally National Lampoon's Animal House, 1978, John Landis (9) - Comedy
+Debug: History for 8888 Pig Porky
+==========================
+History for 8888 Pig Porky:
+Borrow Annie Hall Pig Porky Annie Hall, 1977, Woody Allen (9) - Comedy
+Borrow When Harry Met Sally Pig Porky When Harry Met Sally, 1989, Rob Reiner (9) - Comedy
+Borrow Silence of the Lambs Pig Porky Jonathan Demme, Silence of the Lambs, 1991 (9) - Drama
+Borrow Dogfight Pig Porky Nancy Savoca, Dogfight, 1991 (8) - Drama
+Done!
