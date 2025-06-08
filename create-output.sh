@@ -59,7 +59,7 @@ if hash clang-format 2>/dev/null; then
   # different LLVMs have slightly different configurations which can break things, so regenerate
   echo "# generated using: clang-format -style=llvm -dump-config > .clang-format" > .clang-format
   clang-format -style=llvm -dump-config >> .clang-format
-  for f in ./*.cpp src/*.cpp; do
+  for f in ./*.cpp src/*.cpp header/*.h; do
     echo "Running clang-format on $f"
     clang-format $f | diff $f -
   done
@@ -95,6 +95,89 @@ else
   echo "WARNING: valgrind not available"
 fi
 
+echo "====================================================="
+echo "  ✨🌙✨    7. Tests have full code coverage ✨🌙✨"
+echo "  ✨🌙✨ The lines below were never executed ✨🌙✨"
+echo "====================================================="
+
+# Clean any existing coverage files
+rm -f *.gcov *.gcda *.gcno src/*.gcov src/*.gcda src/*.gcno 2>/dev/null
+rm ./a.out 2>/dev/null
+
+if hash gcov 2>/dev/null; then
+  echo "Compiling with coverage instrumentation..."
+  
+  # Compile with coverage flags
+  if g++ -I./header -fprofile-arcs -ftest-coverage *.cpp src/*.cpp -o a.out 2>/dev/null; then
+    
+    # Execute program to generate coverage data
+    echo "Generating coverage data..."
+    $EXEC_PROGRAM > /dev/null 2>&1
+    
+    echo ""
+    echo "COVERAGE SUMMARY:"
+    echo "-----------------"
+    
+    # Process each source file and capture gcov output directly
+    for file in main.cpp store_test.cpp; do
+      if [ -f "$file" ]; then
+        echo -n "Processing $file: "
+        gcov "$file" 2>/dev/null | grep -A1 "File '$file'" | grep "Lines executed"
+      fi
+    done
+    
+    # Process source directory files
+    for file in src/*.cpp; do
+      if [ -f "$file" ]; then
+        filename=$(basename "$file")
+        echo -n "Processing $filename: "
+        gcov "$file" 2>/dev/null | grep -A1 "File.*$filename" | grep "Lines executed"
+      fi
+    done
+    
+    echo ""
+    echo "UNCOVERED CODE DETECTION:"
+    echo "-------------------------"
+    
+    # Generate .gcov files to check for uncovered lines
+    gcov *.cpp src/*.cpp > /dev/null 2>&1
+    
+    # Check if any uncovered lines exist
+    uncovered_found=false
+    for gcov_file in *.gcov; do
+      if [ -f "$gcov_file" ] && grep -q "#####:" "$gcov_file"; then
+        uncovered_found=true
+        break
+      fi
+    done
+    
+    if [ "$uncovered_found" = true ]; then
+      echo "Some lines were not executed during testing:"
+      echo ""
+      for gcov_file in *.gcov; do
+        if [ -f "$gcov_file" ]; then
+          uncovered=$(grep -n "#####:" "$gcov_file" 2>/dev/null | head -5)
+          if [ ! -z "$uncovered" ]; then
+            echo "In $gcov_file:"
+            echo "$uncovered"
+            echo ""
+          fi
+        fi
+      done
+    else
+      echo "✨ All executable lines have been covered by tests! ✨"
+    fi
+    
+  else
+    echo "ERROR: Failed to compile with coverage flags"
+  fi
+  
+  # Clean up all coverage files
+  rm -f *.gcov *.gcda *.gcno src/*.gcov src/*.gcda src/*.gcno 2>/dev/null
+  
+else
+  echo "WARNING: gcov not available for coverage analysis"
+fi
 
 # Remove the executable
 rm -rf ./a.out* 2>/dev/null

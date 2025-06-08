@@ -1,4 +1,4 @@
-Sun Jun  8 10:52:58 PDT 2025
+Sun Jun  8 12:04:24 PDT 2025
 Darwin Rosalias-MacBook-Pro.local 24.5.0 Darwin Kernel Version 24.5.0: Tue Apr 22 19:53:27 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T6041 arm64
 uid=501(bluerose) gid=20(staff) groups=20(staff),12(everyone),61(localaccounts),79(_appserverusr),80(admin),81(_appserveradm),33(_appstore),98(_lpadmin),100(_lpoperator),204(_developer),250(_analyticsusers),395(com.apple.access_ftp),398(com.apple.access_screensharing),399(com.apple.access_ssh),400(com.apple.access_remote_ae),701(com.apple.sharepoint.group.1)
 =====================================================
@@ -193,164 +193,43 @@ Done!
    (ignore warnings from system headers, such as "13554 warnings generated.")
 =====================================================
 [1/7] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/main.cpp.
-31973 warnings generated.
+31966 warnings generated.
 [2/7] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/store_test.cpp.
-65901 warnings generated.
+65894 warnings generated.
 [3/7] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/src/classic.cpp.
-96663 warnings generated.
+96651 warnings generated.
 [4/7] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/src/comedy.cpp.
-127427 warnings generated.
+127410 warnings generated.
 [5/7] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/src/commands.cpp.
-159722 warnings generated.
+159700 warnings generated.
 [6/7] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/src/drama.cpp.
-190198 warnings generated.
+190171 warnings generated.
 [7/7] Processing file /Users/bluerose/Documents/343-movies-PaleRoses-1/src/store.cpp.
-223282 warnings generated.
-./header/command.h:41:10: error: method 'isValidCustomerID' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
-   41 |     bool isValidCustomerID(const std::string &id) const {
-      |          ^                                        ~~~~~
-      |     static 
-./header/command.h:42:30: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
-   42 |         if (id.length() != 4)
-      |                              ^
-      |                               {
-   43 |             return false;
-      |                          
-./header/command.h:49:10: error: method 'isValidMediaType' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
-   49 |     bool isValidMediaType(char mediaType) const { return mediaType == 'D'; }
-      |          ^                                ~~~~~
-      |     static 
-./header/command.h:52:10: error: method 'reportError' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
-   52 |     void reportError(const std::string &message) const {
-      |          ^                                       ~~~~~
-      |     static 
-./header/command.h:41:10: error: method 'isValidCustomerID' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
-   41 |     bool isValidCustomerID(const std::string &id) const {
-      |          ^                                        ~~~~~
-      |     static 
-./header/command.h:42:30: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
-   42 |         if (id.length() != 4)
-      |                              ^
-      |                               {
-   43 |             return false;
-      |                          
-./header/command.h:49:10: error: method 'isValidMediaType' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
-   49 |     bool isValidMediaType(char mediaType) const { return mediaType == 'D'; }
-      |          ^                                ~~~~~
-      |     static 
-./header/command.h:52:10: error: method 'reportError' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
-   52 |     void reportError(const std::string &message) const {
-      |          ^                                       ~~~~~
-      |     static 
-/Users/bluerose/Documents/343-movies-PaleRoses-1/main.cpp:9:2: error: #includes are not sorted properly [llvm-include-order,-warnings-as-errors]
-    9 |  #include <iostream>
-      |  ^        ~~~~~~~~~~
-      |           "header/store.h"
-   10 |  #include <string>
-      |           ~~~~~~~~
-      |           <exception>
-   11 |  #include <exception>
-      |           ~~~~~~~~~~~
-      |           <iostream>
-   12 |  #include "header/store.h"
-      |           ~~~~~~~~~~~~~~~~
-      |           <string>
-Suppressed 223251 warnings (223251 in non-user code).
+223250 warnings generated.
+Suppressed 223250 warnings (223250 in non-user code).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
-9 warnings treated as errors
 =====================================================
 4. If the section below is empty, clang-format does not find any formatting issues
    You can fix formatting errors using "clang-format -i <filename>" on command line
 =====================================================
 Running clang-format on ./main.cpp
-4c4
-<  * 
----
->  *
-9,45c9,45
-<  #include <iostream>
-<  #include <string>
-<  #include <exception>
-<  #include "header/store.h"
-<  
-<  int main() {
-<      try {
-<          // Create the store instance
-<          Store movieStore;
-<          
-<          // File paths for data files
-<          const std::string movieFile = "data4movies.txt";
-<          const std::string customerFile = "data4customers.txt";
-<          const std::string commandFile = "data4commands.txt";
-<          
-<          // Initialize the store with movie and customer data
-<          if (!movieStore.initialize(movieFile, customerFile)) {
-<              std::cerr << "Failed to initialize store with data files" << std::endl;
-<              return 1;
-<          }
-<          
-<          // Process commands from the command file
-<          if (!movieStore.processCommands(commandFile)) {
-<              std::cerr << "Failed to process command file" << std::endl;
-<              return 1;
-<          }
-<          
-<          std::cout << "Done!" << std::endl;
-<          return 0;
-<      } catch (const std::exception& e) {
-<          std::cerr << "Error: " << e.what() << std::endl;
-<          return 1;
-<      } catch (...) {
-<          std::cerr << "Unknown error occurred" << std::endl;
-<          return 1;
-<      }
-<  }
-\ No newline at end of file
----
-> #include "header/store.h"
-> #include <exception>
-> #include <iostream>
-> #include <string>
-> 
-> int main() {
->   try {
->     // Create the store instance
->     Store movieStore;
-> 
->     // File paths for data files
->     const std::string movieFile = "data4movies.txt";
->     const std::string customerFile = "data4customers.txt";
->     const std::string commandFile = "data4commands.txt";
-> 
->     // Initialize the store with movie and customer data
->     if (!movieStore.initialize(movieFile, customerFile)) {
->       std::cerr << "Failed to initialize store with data files" << std::endl;
->       return 1;
->     }
-> 
->     // Process commands from the command file
->     if (!movieStore.processCommands(commandFile)) {
->       std::cerr << "Failed to process command file" << std::endl;
->       return 1;
->     }
-> 
->     std::cout << "Done!" << std::endl;
->     return 0;
->   } catch (const std::exception &e) {
->     std::cerr << "Error: " << e.what() << std::endl;
->     return 1;
->   } catch (...) {
->     std::cerr << "Unknown error occurred" << std::endl;
->     return 1;
->   }
-> }
-\ No newline at end of file
 Running clang-format on ./store_test.cpp
 Running clang-format on src/classic.cpp
 Running clang-format on src/comedy.cpp
 Running clang-format on src/commands.cpp
 Running clang-format on src/drama.cpp
 Running clang-format on src/store.cpp
+Running clang-format on header/bstree.h
+Running clang-format on header/classic.h
+Running clang-format on header/comedy.h
+Running clang-format on header/command.h
+Running clang-format on header/commands.h
+Running clang-format on header/customer.h
+Running clang-format on header/drama.h
+Running clang-format on header/factory.h
+Running clang-format on header/hashtable.h
+Running clang-format on header/movie.h
+Running clang-format on header/store.h
 =====================================================
 5. If there are any memory leaks, it should be in the output below
 =====================================================
@@ -359,7 +238,20 @@ Running clang-format on src/store.cpp
    Check for "definitely lost" in the output below
 =====================================================
 WARNING: valgrind not available
-Sun Jun  8 10:53:13 PDT 2025
+=====================================================
+  ✨🌙✨    7. Tests have full code coverage ✨🌙✨
+  ✨🌙✨ The lines below were never executed ✨🌙✨
+=====================================================
+Compiling with coverage instrumentation...
+Generating coverage data...
+
+COVERAGE SUMMARY:
+-----------------
+Processing main.cpp: Processing store_test.cpp: Processing classic.cpp: Processing comedy.cpp: Processing commands.cpp: Processing drama.cpp: Processing store.cpp: 
+UNCOVERED CODE DETECTION:
+-------------------------
+✨ All executable lines have been covered by tests! ✨
+Sun Jun  8 12:04:41 PDT 2025
 =====================================================
 To create an output.txt file with all the output from this script
 Run the below command
