@@ -5,11 +5,11 @@
  * @date 19 Jan 2019
  */
 
+#include <cassert>
+#include <fstream>
 #include <iostream>
 #include <map>
 #include <sstream>
-#include <fstream>
-#include <cassert>
 
 using namespace std;
 

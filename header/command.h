@@ -7,6 +7,8 @@
 #ifndef COMMAND_H
 #define COMMAND_H
 
+#include <algorithm>
+#include <cctype>
 #include <iostream>
 #include <string>
 
@@ -39,11 +41,8 @@ class Command {
     bool isValidCustomerID(const std::string &id) const {
         if (id.length() != 4)
             return false;
-        for (char c : id) {
-            if (!std::isdigit(c))
-                return false;
-        }
-        return true;
+        return std::all_of(id.begin(), id.end(),
+                           [](char c) { return std::isdigit(c); });
     }
 
     // Check if media type is 'D'

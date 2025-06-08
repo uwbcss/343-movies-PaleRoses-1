@@ -53,11 +53,11 @@ template <typename T> class BSTree {
         K nodeKey = keyExtractor(node->data);
         if (key == nodeKey) {
             return &(node->data);
-        } else if (key < nodeKey) {
-            return findHelper(node->left, key, keyExtractor);
-        } else {
-            return findHelper(node->right, key, keyExtractor);
         }
+        if (key < nodeKey) {
+            return findHelper(node->left, key, keyExtractor);
+        }
+        return findHelper(node->right, key, keyExtractor);
     }
 
     // In-order traversal
